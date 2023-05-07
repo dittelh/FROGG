@@ -1,0 +1,114 @@
+body{
+    background-color: #FAF0F7;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Hamburgermenu */
+/* Kode inspireret af: https://codepen.io/ainalem/pen/LJYRxz?editors=1100 d. 7 maj 2023 - 
+der er lavet tilrettelser, så det passer ind til designet */
+
+.ham{
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hamRotate.active{
+    transform: rotate(45deg);
+}
+
+.hamRotate180.active{
+    transform: rotate(180deg);
+}
+
+.line{
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#DA503C;
+    stroke-width:5.5;
+    stroke-linecap: square;
+}
+
+.ham8 .top {
+    stroke-dasharray: 40 160;
+}
+
+.ham8 .middle {
+    stroke-dasharray: 50 142;
+    transform-origin: 50%;
+    transition: transform 400ms;
+}
+
+.ham8 .bottom {
+    stroke-dasharray: 40 85;
+    transform-origin: 50%;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+}
+
+.ham8.active .top {
+    stroke-dashoffset: -64px;
+}
+
+.ham8.active .middle {
+    stroke-dashoffset: -10px;
+    transform: rotate(90deg);
+}
+
+.ham8.active .bottom {
+    stroke-dashoffset: -64px;
+}
+
+
+
+
+
+
+
+.dropdown-icon .dropdown-button {
+    opacity: 0;
+    position: absolute;
+    z-index: 45;
+    display: block;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+}
+
+
+.dropdown-icon span {
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #DA503C;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease,-webkit-transform .2s ease;
+}
+
+
+@media screen and (max-width: 520px) {
+    .dropdown-icon span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .dropdown-icon span {
+        width: 18px;
+    }
+}
