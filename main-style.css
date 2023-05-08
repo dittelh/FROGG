@@ -1,3 +1,6 @@
+/* Fonte fra Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Readex+Pro&family=Roboto:wght@500&display=swap');
+
 body{
     background-color: #FAF0F7;
     width: 100%;
@@ -79,6 +82,96 @@ der er lavet tilrettelser, så det passer ind til designet */
 
 
 
+
+
+
+/* Navigation */
+.navigation-menu{
+    width: 16rem;
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    text-align: end;
+    background-color: #FAF0F7;
+    border: #DA503C 1px solid;
+}
+
+.dropdown-listitems{
+    background-color:#FAF0F7;
+    padding-right: 1.25rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+.dropdown-listitems a{
+    color: #DA503C;
+}
+
+#haekleskole{
+    padding-right: 1.25rem;
+    padding-bottom: .7rem;
+}
+
+.line-under-dropdown-item{
+   margin: 0; 
+   width: 12.5rem;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #DA503C;
+   height: 1px;
+}
+
+.last-line{
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation-items{
+    color: #FAF0F7;
+    background-color: #DA503C;
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size: 1.88rem;
+    width: 15rem;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    
+}
+
+.navigations-headlines{
+    color: #FAF0F7;
+    padding-right: 1.25rem;
+}
+
+
+.dropdown-items-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding-bottom: 0 !important;
+}
+
+.dropdown-list{
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
+    border-style: dashed;
+    border-width: 2px;
+    border-top: none;
+    border-right: none;
+    border-color: #DA503C;
+    background-color: #FAF0F7;
+}
 
 
 
