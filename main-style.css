@@ -94,6 +94,7 @@ der er lavet tilrettelser, så det passer ind til designet */
     text-align: end;
     background-color: #FAF0F7;
     border: #DA503C 1px solid;
+    margin-top: 0;
 }
 
 .dropdown-listitems{
