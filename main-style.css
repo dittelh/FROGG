@@ -5,10 +5,18 @@ body{
 }
 
 header{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+#frogg-logo{
+    width: 8em;
+}
+
+#nav-icon-container{
     display: flex;
     justify-content: space-between;
 }
-
 
 
 /* Hamburgermenu */
