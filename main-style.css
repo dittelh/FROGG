@@ -1,5 +1,24 @@
 /* Fonte fra Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Readex+Pro&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@font-face {
+    font-family: StretchedReadex;
+    src: url("assets/fonts/StretchedReadex-Regular.ttf");
+  }
+
+
+/* Farver */
+:root {
+    --lightpink: #FAF0F7;
+    --white: #FFFFFF; 
+    --red: #DA503C;
+    --purlpe: #C1B6F0; 
+    --green: #71F055;
+    --yellow: #F4E767; 
+    --blue: #1825FF; 
+    --black: #000000;
+}
 
 body{
     background-color: #FAF0F7;
@@ -13,13 +32,18 @@ header{
 }
 
 #frogg-logo{
-    width: 8em;
+    width: 10rem;
 }
 
 #nav-icon-container{
     display: flex;
     justify-content: space-between;
 }
+
+.hide-links{
+    display: none;
+}
+
 
 
 /* Hamburgermenu */
@@ -86,7 +110,11 @@ der er lavet tilrettelser, så det passer ind til designet */
 
 
 /* Navigation */
-.navigation-menu{
+#navbar{
+    border-bottom: #DA503C 2px solid;
+}
+
+.show-links{
     width: 16rem;
     display: flex;
     margin-left: auto;
@@ -139,7 +167,7 @@ a{
     color: #FAF0F7;
     background-color: #DA503C;
     font-family: "Oswald";
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.88rem;
     width: 15rem;
     display: flex;

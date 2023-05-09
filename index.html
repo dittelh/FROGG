@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FROGG</title>
     <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
             <div id="nav-icon-container">
                 <a href="/"><img src="assets/img/frogg-rund.png" id="frogg-logo" alt="FROGG's logo"></a>
-                <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active'), openMenu()">
                     <path
                     class="line top"
                     d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
@@ -24,7 +25,7 @@
                     d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
                 </svg>
             </div>
-            <ul class="navigation-menu">
+            <ul class="navigation-menu show-links" id="my-links">
                 <li class="navigation-items"><a class="navigations-headlines" href="opskrifter/opskrifter.html">OPSKRIFTER</a></li>
                 <div>
                     <!-- <div class="dropdown-icon">
@@ -48,10 +49,14 @@
         </nav>
     </header>
     <body>
-        
+        <div id="first-section-with-check">
+            <img id="taske-billede" src="assets/img/taske.jpg" alt="En hæklet taske i mange farver">
+        </div>
+        <h1 id="firstH1">vi eR FrOgg</h1>
     </body>
     <footer>
         
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
