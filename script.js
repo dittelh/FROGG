@@ -1,10 +1,9 @@
-var showingMenu = false 
-
 function openMenu() {
   // Fjerner eller tilføjer en class, ved at toggle
-  var links = document.getElementById("my-links")
-  links.classList.toggle("hide-links")
+  var links = document.getElementById("navigation")
   links.classList.toggle("show-links")
 
-  showingMenu = !showingMenu;
+  if(links.classList.contains("show-links")){
+    links.classList.add("hide-links")
+  }
 }

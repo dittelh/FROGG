@@ -31,18 +31,7 @@ header{
     justify-content: space-between; */
 }
 
-#frogg-logo{
-    width: 10rem;
-}
 
-#nav-icon-container{
-    display: flex;
-    justify-content: space-between;
-}
-
-.hide-links{
-    display: none;
-}
 
 
 
@@ -51,6 +40,7 @@ header{
 der er lavet tilrettelser, så det passer ind til designet */
 
 .ham{
+    height: 87px;
     -webkit-tap-highlight-color: transparent;
     transition: transform 400ms;
     -moz-user-select: none;
@@ -71,7 +61,7 @@ der er lavet tilrettelser, så det passer ind til designet */
     fill:none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
     stroke:#DA503C;
-    stroke-width:5.5;
+    stroke-width: 4;
     stroke-linecap: square;
 }
 
@@ -105,16 +95,34 @@ der er lavet tilrettelser, så det passer ind til designet */
 }
 
 
-
-
-
-
 /* Navigation */
-#navbar{
-    border-bottom: #DA503C 2px solid;
+#frogg-logo{
+    width: 6.5rem;
+    margin-left: 4vw;
+    
 }
 
-.show-links{
+#nav-icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide-links{
+    animation: navigation-slideout .2s ease-in-out;
+}
+
+#navbar{
+    border-bottom: #DA503C 2px solid;
+    position: fixed;
+    width: 100vw;
+    background-color: var(--lightpink);
+    height: 5rem;
+}
+
+.navigation-menu{
+    right: -70%;
+    position: absolute;
+    top: 100%;
     width: 16rem;
     display: flex;
     margin-left: auto;
@@ -123,6 +131,30 @@ der er lavet tilrettelser, så det passer ind til designet */
     background-color: #FAF0F7;
     border: #DA503C 1px solid;
     margin-top: 0;
+    
+}
+
+.show-links{
+    right: 0;
+    animation: navigation-slidein .2s ease-in-out;
+}
+
+@keyframes navigation-slidein {
+    from{
+        right: -70%;
+    }
+    to{
+        right: 0;
+    }
+}
+
+@keyframes navigation-slideout {
+    from{
+        right: 0%;
+    }
+    to{
+        right: -70%;
+    }
 }
 
 .dropdown-listitems{
@@ -205,6 +237,20 @@ a{
 
 
 
+
+.dropdown-icon {
+    position: relative;
+    width: 0.65em;
+    margin-bottom: .5rem;
+    margin-left: .8rem;
+}
+
+#headline-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .dropdown-icon .dropdown-button {
     opacity: 0;
     position: absolute;
@@ -215,7 +261,6 @@ a{
     height: inherit;
 }
 
-
 .dropdown-icon span {
     pointer-events: none;
     display: block;
@@ -224,7 +269,7 @@ a{
     left: 0;
     height: 2px;
     border-radius: 1px;
-    background-color: #DA503C;
+    background-color: var(--lightpink);
     -webkit-transition: -webkit-transform .2s ease;
     transition: -webkit-transform .2s ease;
     transition: transform .2s ease;
@@ -232,13 +277,19 @@ a{
 }
 
 
-@media screen and (max-width: 520px) {
-    .dropdown-icon span:nth-child(3) {
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-    }
-    .dropdown-icon span {
-        width: 18px;
-    }
+.dropdown-icon span:nth-child(2) {
+    -webkit-transform: translateX(12px) rotate(45deg);
+    -ms-transform: translateX(12px) rotate(45deg);
+    transform: translateX(12px) rotate(45deg);
 }
+
+.dropdown-icon span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.dropdown-icon span {
+    width: 18px;
+}
+
