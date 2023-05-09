@@ -117,6 +117,7 @@ der er lavet tilrettelser, så det passer ind til designet */
     width: 100vw;
     background-color: var(--lightpink);
     height: 5rem;
+    top: 0;
 }
 
 .navigation-menu{

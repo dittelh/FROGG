@@ -1,9 +1,12 @@
 #taske-billede{
-    width: 90vw;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 8%;
+    border: var(--red) solid 1px;
+
 }
 
 #first-section-with-check{
@@ -11,6 +14,9 @@
     width: 100vw;
     background-size: contain; 
     height: 18rem;
+    margin-top: 19%;
+    display: flex;
+    align-items: center;
 }
 
 .h1{
