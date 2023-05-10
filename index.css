@@ -78,7 +78,7 @@
     display: flex;
     justify-content: flex-start;
     background-color: var(--yellow);
-    overflow: hidden;
+    /* overflow: hidden; */
     border-bottom: var(--red) solid 2px;
     border-top: var(--red) solid 2px;
 }
@@ -89,14 +89,14 @@
     animation: move-rtl 1000ms linear infinite;
 }
 
-@keyframes move-rtl{
+/* @keyframes move-rtl{
     0% {
         transform: translateX(0);
     }
     100% {
         transform: translateX(-100%);
     }
-}
+} */
 
 
 
@@ -104,5 +104,31 @@
 
 
 .green-opskrift-section{
-    
+    background-color: var(--green);
+   
+}
+
+.sommertoppen-section{
+
+}
+
+.taske-section{
+
+}
+
+.hat-section{
+
+}
+
+.opskrift-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.opskrift-section-img{
+    width: 80vw;
+
 }

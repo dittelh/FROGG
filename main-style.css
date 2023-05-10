@@ -40,7 +40,7 @@ body{
     width: 0%;
     position: absolute;
     top: 100%;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -108,17 +108,26 @@ der er lavet tilrettelser, så det passer ind til designet */
 
 
 /* Navigation */
+header{
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100vw;
+    z-index: 10;
+}
+
 #frogg-logo{
     width: 6.5rem;
     margin-left: 4vw;
     z-index: 10;
-    position: relative;
+    /* position: relative; */
 }
 
 #nav-icon-container{
     display: flex;
     justify-content: space-between;
     z-index: 10;
+    position: relative;
 }
 
 .hide-links{
@@ -127,11 +136,9 @@ der er lavet tilrettelser, så det passer ind til designet */
 
 #navbar{
     border-bottom: #DA503C 2px solid;
-    position: fixed;
-    width: 100vw;
+    width: 100%;
     background-color: var(--lightpink);
-    height: 5rem;
-    top: 0;
+    height: 100%;
 }
 
 .navigation-menu{
