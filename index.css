@@ -34,6 +34,7 @@
     height: 43vw;
     border: var(--red) solid 1px;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 .square-item{
@@ -58,10 +59,14 @@
     position: relative;
 }
 
+.text-and-btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .btn-photo-container{
-    position: absolute;
-    left: 8vw;
-    bottom: -4vw;
+   margin-top: -1.25rem; 
 }
 
 .crochet-font-section{
