@@ -1,6 +1,7 @@
 /* Fonte fra Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Readex+Pro&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
 
 @font-face {
     font-family: StretchedReadex;
@@ -26,9 +27,20 @@ body{
     margin: 0;
 }
 
-header{
-    /* display: flex;
-    justify-content: space-between; */
+.progress-container {
+    width: 100vw;
+    height: 8px;
+    background: transparent;
+}
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: var(--red);
+    width: 0%;
+    position: absolute;
+    top: 100%;
+    z-index: 2;
 }
 
 
@@ -99,12 +111,14 @@ der er lavet tilrettelser, så det passer ind til designet */
 #frogg-logo{
     width: 6.5rem;
     margin-left: 4vw;
-    
+    z-index: 10;
+    position: relative;
 }
 
 #nav-icon-container{
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
 
 .hide-links{
@@ -293,4 +307,109 @@ a{
 .dropdown-icon span {
     width: 18px;
 }
+
+
+
+
+/* Font styling */
+.h1{
+    font-family: StretchedReadex;
+    font-size: 5.31rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.h3{
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.h2{
+    font-family: Readex Pro;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3.75rem;
+    margin: 5% 5%;
+}
+
+.didot-font{
+    font-family: "linotype-didot", serif;
+}
+
+.red-font{
+    color: var(--red);
+}
+
+.p{
+    font-family: Readex Pro;
+    font-weight: 300;
+    font-size: 1rem;                                                                                                                                                             
+}
+
+
+
+/* Buttons styling */
+
+.btn{
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 1.17rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 34px;
+
+}
+
+.btn-dash{
+    color: var(--blue);
+    border-style: dashed;
+    border-width: 2px;
+    box-sizing: border-box;
+}
+
+.btn-dash :hover{
+    border-style: var(--blue) solid;
+    cursor: pointer;
+}
+
+.btn-blue{
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.btn-blue :hover{
+    background-color: #040DA2;
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    margin-left: 5%;
+    width: 75vw;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.purple-text-box{
+    margin-top: 15%;
+    width: 90vw;
+    background-color: var(--purlpe);
+    margin-left: auto;
+    margin-right: auto;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+
 

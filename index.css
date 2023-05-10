@@ -1,12 +1,12 @@
 #taske-billede{
-    width: 90%;
+    width: 90vw;
     height: auto;
     object-fit: cover;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     border: var(--red) solid 1px;
-
+    box-sizing: border-box;
 }
 
 #first-section-with-check{
@@ -19,16 +19,90 @@
     align-items: center;
 }
 
-.h1{
-    font-family: StretchedReadex;
-    color: var(--red);
-    font-size: 5.31rem;
+.photo-container{
+    display: flex;
+    max-width: 90vw;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
 }
 
-.h3{
-    font-family: "Oswald";
+.square-img{
+    width: 43vw;
+    height: 43vw;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.square-item{
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.square-text-box{
+    width: 43vw;
+    height: 43vw;
+    background-color: var(--yellow);
+    font-family: Readex Pro;
     font-weight: 300;
-    font-size: 1.875rem;
-    color: var(--red);
-    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 5%;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.inspiration-frontpage-section{
+    position: relative;
+}
+
+.btn-photo-container{
+    position: absolute;
+    left: 8vw;
+    bottom: -4vw;
+}
+
+.crochet-font-section{
+    width: 110vw;
+    margin-top: 15%;
+}
+
+.citat-forfatter{
+    display: flex;
+    justify-content: center;
+}
+
+.text-banner-infinity{
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--yellow);
+    overflow: hidden;
+    border-bottom: var(--red) solid 2px;
+    border-top: var(--red) solid 2px;
+}
+
+.banner-text{
+    white-space: nowrap;
+    padding: 0 1rem;
+    animation: move-rtl 1000ms linear infinite;
+}
+
+@keyframes move-rtl{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+.green-opskrift-section{
+    
 }
