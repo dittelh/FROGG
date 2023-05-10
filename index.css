@@ -77,24 +77,27 @@
 .text-banner-infinity{
     display: flex;
     justify-content: flex-start;
-    background-color: var(--yellow);
     overflow: hidden;
+    background-color: var(--yellow);
     border-bottom: var(--red) solid 2px;
     border-top: var(--red) solid 2px;
+    width: 100vw;
 }
 
 .banner-text{
     white-space: nowrap;
     padding: 0 1rem;
-    animation: move-rtl 1000ms linear infinite;
+    animation: move-rtl 17000ms linear infinite;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 @keyframes move-rtl{
     0% {
-        transform: translateX(0);
+        transform: translateX(100vw);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-900vw);
     }
 }
 
