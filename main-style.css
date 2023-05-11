@@ -406,6 +406,10 @@ a{
     color: var(--red);
 }
 
+.blue-font{
+    color: var(--blue);
+}
+
 .p{
     font-family: Readex Pro;
     font-weight: 300;
@@ -428,6 +432,19 @@ a{
     width: 145px;
     height: 34px;
 
+}
+
+.double-btn{
+    font-family: Roboto;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.17rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 51px;
 }
 
 .btn-dash{

@@ -1,0 +1,65 @@
+.purple-section{
+    background-color: var(--purple);
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.img-laer-at-haekle{
+    width: 43vw;
+    height: 43vw;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+    object-fit: cover;
+    
+}
+
+.img-container{
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.p-margin{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.h3-no-bottom-margin{
+    margin-bottom: 0;
+}
+
+.btn-text-section{
+    margin-bottom: 15%;
+}
+
+.learn-more-btn{
+    margin-bottom: -1.1rem;
+    margin-left: 5%;
+}
+
+
+.yellow-section{
+    background-color: var(--yellow);
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.first-yellow{
+    margin-top: 25%;
+}
