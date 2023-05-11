@@ -77,7 +77,10 @@
 
 
 
-
+.tern-img-opskrifter{
+    transform: rotate(90deg);
+    width: 100vw;
+}
 
 .text-banner-infinity{
     display: flex;
