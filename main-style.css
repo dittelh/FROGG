@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Readex+Pro&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 @font-face {
     font-family: StretchedReadex;
@@ -386,6 +387,7 @@ a{
 
 .btn{
     font-family: Roboto;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 1.17rem;
     text-decoration: none;
@@ -443,3 +445,65 @@ a{
 
 
 
+
+.footer-img{
+    margin-bottom: -120px;
+    margin-top: 30%;
+    width: 80vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: var(--black);
+}
+
+.negativt-logo{
+    width: 10rem;
+}
+
+.a-footer{
+    color: var(--white);
+    text-align: end;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer-content{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.footer-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 10vw;
+}
+
+.line-under-dropdown-item-footer{
+    margin: 0; 
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--white);
+    height: 2px;
+    
+}
+
+.some-icon{
+    width: 2rem;
+    padding: 15%;
+}
+
+.some-icon-section{
+    display: flex;
+    justify-content: center;
+}
+
+.a-some{
+    padding: 2%;
+}

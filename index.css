@@ -113,19 +113,26 @@
 
 .green-opskrift-section{
     background-color: var(--green);
-   
+    padding-top: 20%;
+    border-bottom: var(--red) solid 1px;
+    border-top: var(--red) solid 1px;
 }
 
 .sommertoppen-section{
-
+    margin-bottom: 20%;
 }
 
 .taske-section{
-
+    margin-bottom: 20%;
 }
 
 .hat-section{
+    padding-bottom: 20%;
+}
 
+.opskrift-text-headline{
+    margin-left: 0 !important; 
+    margin-bottom: 2% !important;
 }
 
 .opskrift-section{
@@ -138,5 +145,9 @@
 
 .opskrift-section-img{
     width: 80vw;
-
+    height: 80vw;
+    object-fit: cover;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
 }
+
