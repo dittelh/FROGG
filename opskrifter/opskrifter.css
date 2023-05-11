@@ -1,0 +1,109 @@
+.opskrifter-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.opskrift-section{
+    width: 43vw;
+    margin-bottom: 20vw;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+
+
+.opskrift-img{
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.green-opskrift{
+    background-color: var(--green);
+}
+
+.purple-opskrift{
+    background-color: var(--purple);
+}
+
+.yellow-opskrift{
+    background-color: var(--yellow);
+}
+
+.blue-opskrift{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.red-opskrift{
+    background-color: var(--red);
+}
+
+.blue-dash-opskrift{
+    width: 43vw;
+    margin-bottom: 20vw;
+    border-color: var(--blue);
+    border-style: dashed;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.list-opskrifter{
+    list-style-type: disc;
+    padding-left: 7vw;
+}
+
+.opskrift-btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1rem;
+    margin-top: 3rem;
+}
+
+.h3opskrift{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+.text-banner-infinity{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: var(--yellow);
+    border-bottom: var(--red) solid 2px;
+    border-top: var(--red) solid 2px;
+    width: 100vw;
+    margin-bottom: 20%;
+    /* margin-top: 20%; */
+}
+
+.banner-text{
+    white-space: nowrap;
+    padding: 0 1rem;
+    animation: move-rtl 17000ms linear infinite;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@keyframes move-rtl{
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-900vw);
+    }
+}
