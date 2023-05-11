@@ -1,5 +1,5 @@
 /* Dropdown icon */
-.dropdown-icon .dropdown-button {
+.termer-dropdown-btn {
     opacity: 0;
     position: absolute;
     z-index: 45;
@@ -9,21 +9,20 @@
     height: inherit;
 }
 
-.dropdown-icon span {
+.termer-dropdown-icon span {
     pointer-events: none;
     display: block;
     position: absolute;
     top: 50%;
-    left: 0;
-    height: 2px;
+    left: 10vw;
+    height: 1px;
     border-radius: 1px;
-    background-color: var(--lightpink);
+    background-color: var(--black);
     -webkit-transition: -webkit-transform .2s ease;
     transition: -webkit-transform .2s ease;
     transition: transform .2s ease;
     transition: transform .2s ease,-webkit-transform .2s ease;
 }
-
 
 .arrow-side-1 {
     -webkit-transform: rotate(-45deg);
@@ -43,6 +42,97 @@
     translate: 12px;
 }
 
-.dropdown-icon span {
+.termer-dropdown span {
     width: 18px;
+}
+
+
+.termer-container{
+    display: flex;
+    width: 90vw;
+    background-color: var(--purple);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between !important;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.termer-dropdown{
+
+}
+
+.termer-dropdown{
+    width: 90vw;
+    border-style: dashed;
+    border-width: 2px;
+    border-top: none;
+    border-color: var(--red);
+    background-color: var(--lightpink);
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-right: 3%;
+}
+
+.oversættelses-container{
+    display: flex;
+    width: 100%;
+    
+}
+
+.amerikansk-container{
+    margin-left: 3%;
+    width: 40vw;
+}
+
+.britisk-container{
+    margin-left: 10%;
+    width: 40vw;
+}
+
+.p-termer{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.termer-video{
+    width: 60vw;
+    height: 60vw;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.text-banner-infinity{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: var(--yellow);
+    border-bottom: var(--red) solid 2px;
+    border-top: var(--red) solid 2px;
+    width: 100vw;
+    margin-top: 15%;
+}
+
+.banner-text{
+    white-space: nowrap;
+    padding: 0 1rem;
+    animation: move-rtl 17000ms linear infinite;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@keyframes move-rtl{
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-900vw);
+    }
 }
