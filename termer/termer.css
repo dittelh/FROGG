@@ -6,6 +6,7 @@
     margin-right: auto;
     border: var(--red) solid 1px;
     box-sizing: border-box;
+    margin-top: 5%;
 }
 
 .termer-dropdown{
@@ -64,6 +65,7 @@
     border-top: var(--red) solid 2px;
     width: 100vw;
     margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .banner-text{
