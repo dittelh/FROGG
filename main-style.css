@@ -255,6 +255,7 @@ a{
     border-right: none;
     border-color: var(--red);
     background-color: var(--lightpink);
+    flex-direction: column;
     /* animation: dropdown-animation .5s ; */
 }
 
@@ -263,7 +264,7 @@ a{
 }
 
 .show-element{
-    display: unset;
+    display: flex;
 }
 
 
@@ -272,6 +273,14 @@ a{
     width: 0.65em;
     margin-bottom: .5rem;
     margin-left: .8rem;
+}
+
+.dropdown-icon-right {
+    margin-right: 2rem;
+}
+
+.dropdown-icon-right span {
+    background-color: var(--black) !important;
 }
 
 #headline-container{

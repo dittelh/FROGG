@@ -19,6 +19,12 @@
     align-items: center;
 }
 
+
+.st0{
+    fill:none;stroke:#70F054;stroke-width:100;stroke-miterlimit:10;
+}
+
+
 .photo-container{
     display: flex;
     max-width: 90vw;
