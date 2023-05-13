@@ -17,8 +17,23 @@
     margin-top: 19%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
+#smil-tegning{
+    position: absolute;
+    bottom: 0;
+    right: 15vw;
+    width: 12rem;
+}
+
+#klistermærke-rund{
+    position: absolute;
+    width: 7rem;
+    top: 0;
+    right: 0;
+
+}
 
 .st0{
     fill:none;stroke:#70F054;stroke-width:100;stroke-miterlimit:10;
@@ -77,12 +92,13 @@
 
 .crochet-font-section{
     width: 100vw;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .citat-forfatter{
     display: flex;
     justify-content: center;
+    margin-bottom: 25%;
 }
 
 .text-banner-infinity{
