@@ -1,0 +1,16 @@
+.moenstre-img{
+    width: 90vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: var(--red) solid 1px;
+    border-bottom: none;
+    box-sizing: border-box;
+    margin-top: 15%;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.moenstre-container{
+    margin-top: 0 !important;
+}
