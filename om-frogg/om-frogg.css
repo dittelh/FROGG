@@ -1,0 +1,131 @@
+.blue-section-about-frogg{
+    width: 90vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    background-color: var(--blue);
+    border: var(--red) solid 1px;
+    border-bottom: none;
+    box-sizing: border-box;
+    margin-top: 15%;
+}
+
+.white-font{
+    color: var(--white);
+    margin-bottom: 0;
+}
+
+.white-font-p{
+    color: var(--white);
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.video-om-frogg{
+    width: 90vw;
+    height: 55vw;
+    object-fit: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    background-color: var(--blue);
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.text-banner-infinity{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: var(--yellow);
+    border-bottom: var(--red) solid 2px;
+    border-top: var(--red) solid 2px;
+    width: 100vw;
+    margin-top: 25%;
+}
+
+.banner-text{
+    white-space: nowrap;
+    padding: 0 1rem;
+    animation: move-rtl 17000ms linear infinite;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@keyframes move-rtl{
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-900vw);
+    }
+}
+
+
+/* kontakt form */
+
+.contact-section{
+    margin-top: 25%;
+    background-color: var(--purple);
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.input{
+    border: var(--red) solid 1px;
+    color: var(--red);
+    width: 15rem;
+    margin-bottom: 5%;
+    font-family: Readex Pro;
+    padding: 5%;
+}
+
+.email-input{
+    height: 5vw;
+}
+
+.message-input{
+    height: 65vw;
+}
+
+::placeholder{
+    opacity: 50%;
+    color: var(--red);
+    font-family: Readex Pro;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.contact-form-img{
+    width: 90vw;
+    height: 90vw;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    object-fit: cover;
+}
+
+.submit-btn{
+    border: none;
+    font-family: Roboto;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 145px;
+    height: 34px;
+}
