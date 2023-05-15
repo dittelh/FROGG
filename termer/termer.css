@@ -62,8 +62,8 @@
     justify-content: flex-start;
     overflow: hidden;
     background-color: var(--yellow);
-    border-bottom: var(--red) solid 2px;
-    border-top: var(--red) solid 2px;
+    border-bottom: var(--red) solid 1px;
+    border-top: var(--red) solid 1px;
     width: 100vw;
     margin-top: 15%;
     margin-bottom: 15%;
