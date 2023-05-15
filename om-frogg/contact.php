@@ -6,7 +6,7 @@
 
 $email = $_POST['email'];
 $message = $_POST['message'];
-
+exit($email);
 
 $toEmail = "frogg.helper@gmail.com";
 
@@ -28,8 +28,8 @@ $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 // Send mail
 if (mail($toEmail, $subject, $mailMessage, $headers) ) {
     // Redirect back with success popup
-    header('Location: contact.html?success=1');
+    header('Location: om-frogg.html?success=1');
 } else {
     // Redirect back with success popup
-    header('Location: contact.html?success=0');
+    header('Location: om-frogg.html?success=0');
 }
