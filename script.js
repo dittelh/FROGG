@@ -39,3 +39,10 @@ function handleScrollBar() {
 }
 
 
+// Til "inde på en opskrift side"
+
+function lineThroughParagraph(paragraphId){
+  var pElement = document.getElementById(paragraphId)
+
+  pElement.classList.toggle("p-line-through")
+}

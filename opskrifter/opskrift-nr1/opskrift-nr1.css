@@ -182,13 +182,9 @@
 .checkbox-wrapper label::before {
     content: '';
     border: var(--border-size) solid var(--blue);
-    /* opacity: 0.7; */
-    /* transition: opacity 0.3s; */
 }
 
-/* .checkbox-wrapper input[type="checkbox"]:checked + label::before {
-    opacity: 5;
-} */
+
 
 .checkbox-wrapper svg {
     position: absolute;
@@ -220,6 +216,16 @@ input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
 }
 
-/* input[type=checkbox]:checked +  .p-padding{
+
+.p-line-through{
     text-decoration: line-through;
-} */
+}
+
+
+
+
+
+input[type=checkbox]:checked +  .p-padding{
+    
+}
+
