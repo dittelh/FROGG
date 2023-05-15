@@ -6,7 +6,6 @@
 
 $email = $_POST['email'];
 $message = $_POST['message'];
-exit($email);
 
 $toEmail = "frogg.helper@gmail.com";
 
