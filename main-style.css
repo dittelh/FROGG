@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 @font-face {
     font-family: StretchedReadex;
@@ -386,7 +387,7 @@ a{
 .h4{
     font-family: Oswald;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 500;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -459,6 +460,7 @@ a{
     align-items: center;
     width: 145px;
     height: 51px;
+    text-align: center;
 }
 
 .btn-dash{
