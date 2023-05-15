@@ -1,13 +1,29 @@
 function openMenu() {
   // Fjerner eller tilføjer en class, ved at toggle
   var links = document.getElementById("navigation")
+  var hamburger = document.getElementsByClassName("ham")[0]
   links.classList.toggle("show-links")
+  hamburger.classList.toggle("active")
 
   if(links.classList.contains("show-links")){
     links.classList.add("hide-links")
   }
 }
 
+function removeMenu(){
+  var links = document.getElementById("navigation")
+  var hamburger = document.getElementsByClassName("ham")[0]
+  links.classList.remove("show-links")
+  hamburger.classList.remove("active")
+}
+
+window.onclick = ((e) => {
+  let menu = document.getElementsByClassName("navigation-menu")[0]
+  if(!menu.contains(e.target) && !e.target.classList.contains("ham")){
+    removeMenu()
+    console.log("hej")
+  }
+})
 
 // Dropdown submenu 
 function openDropdown(iconId, dropdownId) {
@@ -44,6 +60,7 @@ function openDropdown(iconId, dropdownId) {
   span1.classList.toggle("arrow-side-2")
   span2.classList.toggle("arrow-side-1")
 }
+
 
 
 // When the user scrolls the page, execute handleScrollBar
