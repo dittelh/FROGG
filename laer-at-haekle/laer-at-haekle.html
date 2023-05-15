@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../main-style.css">
     <link rel="stylesheet" href="laer-at-haekle.css">
     <link rel="stylesheet" href="../opskrifter/opskrifter.css">
+    <link rel="stylesheet" href="../termer/termer.css">
 </head>
 <body>
     <header>
@@ -119,7 +120,33 @@
                 <p class="p p-margin">Der er primært 2 måder at starte et hækleprojekt på - en luftmaskekæde eller en magisk ring. <br><br>
                     Med en luftmaskekæde, laver man en række luftmasker i den længde der ønskes og kan derefter hækle frem og tilbage langs denne række for at lave et flat stykke, eller samle kæden til en cirkel, der herefter kan hækles rundt på, eller frem og tilbage for at skabe en cylinderform. </p>
             </section>
-            <h5 class="h5" id="luft-maske">lm = luftmaske</h5>
+            <div id="headline-container" class="termer-container termer-laer-at-haekle" onclick="openDropdown('luftmaske-icon', 'luftmaske-dropdown')">
+                <h5 class="h5" id="luftmaske">lm = luftmaske</h5>
+                <div class="dropdown-icon dropdown-icon-right" id="luftmaske-icon">
+                    <button class="dropdown-button"></button>
+                    <span class="arrow-side-1 arrow-side-translate"></span>
+                    <span class="arrow-side-2"></span>
+                </div>
+            </div>
+            <div id="luftmaske-dropdown" class="termer-dropdown hide-element">
+                <div class="oversættelses-container">
+                    <div class="amerikansk-container">
+                        <h6 class="h6">Amerikansk</h6>
+                        <p class="p p-termer">ch = chain stitch</p>
+                    </div>
+                    <div class="britisk-container">
+                        <h6 class="h6">Britisk</h6>
+                        <p class="p p-termer">ch = chain stitch</p>
+                    </div>
+                </div>
+                <h6 class="h6">How to</h6>
+                <p class="p p-termer">Lav en løkke på garnet, og sæt den på din hæklenål – træk det sammen så det strammes op på din nål.
+                    Slå garnet om din hæklenål, og træd det nu igennem løkken, nu har du en lm, fortsæt til du har det antal du skal bruge, eller det som opskriften foreskriver.
+                </p>
+                <h6 class="h6">Videoguide</h6>
+                <!-- Skal være en video, billedet er blot placeholder -->
+                <img class="termer-video" src="../assets/img/taske.jpg" alt="bøllehat">
+            </div>
             <div class="img-container">
                 <img class="img-laer-at-haekle" src="../assets/img/taske.jpg" alt="taske">
                 <img class="img-laer-at-haekle" src="../assets/img/top.jpg" alt="top">
@@ -128,7 +155,39 @@
                 <p class="p p-margin p-extra-margin-top">Den magiske ring - den kræver altså ingen magi - benyttes som regel i projekter der skal hækles runde former, eksempelvis en brødkurv, eller en bamsekrop.
                     Der er mange forskellige måder at starte ringen på, men de bunder alle i samme princip og gør det muligt at starte et projekt i en helt tæt lille ring og derefter hækle rundt og rundt derudad.</p>
             </section>
-            <h5 class="h5" id="magiskring">mr = magisk ring</h5>
+            <div id="headline-container" class="termer-container termer-laer-at-haekle magic-ring" onclick="openDropdown('magiskring-icon', 'magiskring-dropdown')">
+                <h5 class="h5" id="magiskring">mr = magisk ring</h5>
+                <div class="dropdown-icon dropdown-icon-right" id="magiskring-icon">
+                    <button class="dropdown-button"></button>
+                    <span class="arrow-side-1 arrow-side-translate"></span>
+                    <span class="arrow-side-2"></span>
+                </div>
+            </div>
+            <div id="magiskring-dropdown" class="termer-dropdown hide-element">
+                <div class="oversættelses-container">
+                    <div class="amerikansk-container">
+                        <h6 class="h6">Amerikansk</h6>
+                        <p class="p p-termer">Magic ring</p>
+                    </div>
+                    <div class="britisk-container">
+                        <h6 class="h6">Britisk</h6>
+                        <p class="p p-termer">Magic ring</p>
+                    </div>
+                </div>
+                <h6 class="h6">How to</h6>
+                <p class="p p-termer">Når man skal hækle rundt, vil en hækle opskrift som regel involvere en magisk ring.
+                    <br>
+                    Tag enden af garnet og vikl det to gange rundt om din pegefinger.
+                    Lav en løkke.
+                    Stik hæklenålen ind i løkken og træk garnet fra pegefingeren igennem løkken.
+                    Lav en luftmaske (træk garnet igennem løkken igen).
+                    Lav det ønskede antal fastmasker i ringen.
+                    Luk ringen ved at trække i den korte ende af garnet.
+                </p>
+                <h6 class="h6">Videoguide</h6>
+                <!-- Skal være en video, billedet er blot placeholder -->
+                <img class="termer-video" src="../assets/img/hat.png" alt="bøllehat">
+            </div>
             <section class="yellow-section">
                 <h3 class="h3 h3-no-bottom-margin">Første omgang</h3>
                 <p class="p p-margin">Den første række eller omgang, efter du har lavet din luftmaskekæde eller magiske ring, kan for nogle være lidt svær at gennemskue.  <br><br>
