@@ -6,6 +6,14 @@
     flex-wrap: wrap;
     width: 90vw;
     justify-content: space-between;
+    margin-top: 5%;
+}
+
+.small-img-div{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    margin-top: 5%;
 }
 
 .long-img{
@@ -19,6 +27,36 @@
 .small-img{
     width: 43vw;
     height: 43vw;
+    object-fit: cover;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.img-section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.square-text-box{
+    width: 43vw;
+    height: 43vw;
+    background-color: var(--green);
+    padding: 5%;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.yellow-box{
+    background-color: var(--yellow);
+}
+
+.height-img{
+    height: 90vw;
+    width: 43vw;
     object-fit: cover;
     border: var(--red) solid 1px;
     box-sizing: border-box;
