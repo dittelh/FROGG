@@ -386,6 +386,7 @@ a{
 .h4{
     font-family: Oswald;
     font-size: 1.25rem;
+    font-weight: 300;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -417,6 +418,10 @@ a{
 
 .blue-font{
     color: var(--blue);
+}
+
+.white-font{
+    color: var(--white);
 }
 
 .p{
