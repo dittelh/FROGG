@@ -601,7 +601,17 @@ text{
 /* main */
 @media screen and (min-width: 992px){
 
-    
+    #frogg-logo{
+        width: 12rem;
+    }
+
+    #navbar{
+        height: 140%;
+    }
+
+    .progress-bar{
+        top: 140%;
+    }
 
     /* Navigation */
     .ham{
@@ -613,7 +623,7 @@ text{
         display: flex;
         flex-direction: row;
         width: 80vw;
-        top: 0.4vw;
+        top: 1.1vw;
         border: none;
         background-color: transparent;
         z-index: 15;
@@ -774,8 +784,8 @@ text{
         background-color: var(--lightpink);
     }
     
-    .btn-dash :hover{
-        border-style: var(--blue) solid;
+    .btn-dash:hover{
+        border-style: solid;
         cursor: pointer;
     }
     
@@ -784,7 +794,7 @@ text{
         background-color: var(--blue);
     }
     
-    .btn-blue :hover{
+    .btn-blue:hover{
         background-color: #040DA2;
         cursor: pointer;
     }
