@@ -56,6 +56,7 @@
     border-style: dashed;
     border-width: 1px;
     box-sizing: border-box;
+    background-color: var(--lightpink);
 }
 
 .list-opskrifter{
@@ -86,11 +87,12 @@
     fill:#DA503C;
 }
 
-.tern{
-
-    
+.tern-svg{
+    position: absolute;
+    z-index: -5;
+    top: 240%;
+    transform: rotateZ(90deg) scale(2);
 }
-
 
 .text-banner-infinity{
     display: flex;
@@ -173,9 +175,12 @@
        margin-bottom: .8vw;
     }
 
-    .tern{
-        
-        
+    .tern-svg{
+        position: absolute;
+        z-index: -5;
+        top: 160%;
+        left: 14%;
+        transform: rotateZ(0deg) scale(1.1);
     }
 
     .text-banner-infinity{
@@ -186,6 +191,7 @@
         border-bottom: var(--red) solid 2px;
         border-top: var(--red) solid 2px;
         width: 100vw;
+        margin-bottom: 10%;
     }
     
     .banner-text{
@@ -207,4 +213,22 @@
         }
     }
 
+}
+
+@media screen and (min-width: 1600px){
+
+    .opskrifter-section{
+       
+        width: 75vw;
+        
+    }
+
+    .opskrift-section{
+        width: 17vw;
+    }
+
+    .blue-dash-opskrift{
+        width: 17vw;
+    
+    }
 }
