@@ -32,7 +32,13 @@
     width: 7rem;
     top: 0;
     right: 0;
+}
 
+.btn-container{
+    display: flex;
+    margin-left: 5%;
+    width: 80vw;
+    justify-content: space-between;
 }
 
 .st0{
@@ -172,5 +178,164 @@
     object-fit: cover;
     border: var(--red) solid 1px;
     box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 992px){
+
+    /* Body */
+    .first-section-span{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 40vw;
+    }
+
+    .first-text-span{
+        margin-top: 5vw;
+        border-bottom: var(--red) 2px solid;
+    }
+    
+    #taske-billede{
+        width: 35vw;
+        height: auto;
+        object-fit: cover;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        border: var(--red) solid 1px;
+        box-sizing: border-box;
+    }
+    
+    #first-section-with-check{
+        background-image: url("assets/img/tern.png");
+        width: 70vw;
+        background-size: cover; 
+        height: 100%;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    #smil-tegning{
+        position: absolute;
+        bottom: 7vw;
+        right: 12vw;
+        width: 17vw;
+    }
+    
+    #klistermærke-rund{
+        position: absolute;
+        width: 12vw;
+        top: 25vw;
+        right: 0;
+    }
+
+    .btn-container{
+        display: flex;
+        margin-left: 10rem;
+        margin-top: 5vw;
+        width: 33rem;
+        justify-content: space-between;
+    }
+
+    .st0{
+        fill:none;
+        stroke:#70F054;
+        stroke-width:60;
+        stroke-miterlimit:10;
+    }
+
+    .slange{
+        margin-top: 8vw;
+    }
+    
+
+
+
+
+
+
+    .crochet-font-section{
+        width: 100vw;
+        margin-top: 15vw;
+    }
+
+    .citat-forfatter{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15vw;
+    }
+
+    .text-banner-infinity{
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+        background-color: var(--yellow);
+        border-bottom: var(--red) solid 1px;
+        border-top: var(--red) solid 1px;
+        width: 100vw;
+    }
+    
+    .banner-text{
+        white-space: nowrap;
+        padding: 0 0;
+        animation: move-rtl 45000ms linear infinite;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .green-opskrift-section{
+        background-color: var(--green);
+        padding-top: 3vw;
+        border-bottom: var(--red) solid 1px;
+        border-top: var(--red) solid 1px;
+        display: flex;
+        padding-left: 15rem;
+        padding-right: 15rem;
+        padding-bottom: 3vw;
+    }
+    
+    .sommertoppen-section{
+        margin-bottom: unset;
+    }
+    
+    .taske-section{
+        margin-bottom: unset;
+    }
+    
+    .hat-section{
+        padding-bottom: unset;
+    }
+    
+    .opskrift-text-headline{
+        margin-left: 0 !important; 
+        margin-bottom: 0% !important;
+    }
+    
+    .opskrift-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 17vw;
+    }
+    
+    .opskrift-section-img{
+        width: 17vw;
+        height: 17vw;
+        object-fit: cover;
+        border: var(--red) solid 2px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+
+
 }
 

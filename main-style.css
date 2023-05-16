@@ -119,8 +119,7 @@ header{
 }
 
 #frogg-logo{
-    width: 6.5rem;
-    margin-left: 4vw;
+    width: 8rem;
     z-index: 10;
     /* position: relative; */
 }
@@ -486,12 +485,7 @@ a{
     cursor: pointer;
 }
 
-.btn-container{
-    display: flex;
-    margin-left: 5%;
-    width: 80vw;
-    justify-content: space-between;
-}
+
 
 
 
@@ -525,7 +519,7 @@ footer{
 }
 
 .negativt-logo{
-    width: 10rem;
+    width: 8rem;
 }
 
 .a-footer{
@@ -540,6 +534,7 @@ footer{
     width: 100vw;
     justify-content: space-between;
     padding-bottom: 10%;
+    padding-top: 5%;
 }
 
 .footer-text-container{
@@ -593,3 +588,274 @@ footer{
    text-transform: uppercase;
    fill: var(--blue);
 }
+
+
+text{
+    transform:translate3d(0,1.5rem,0);
+}
+
+@media screen and (min-width: 992px){
+
+    
+
+    /* Navigation */
+    .ham{
+        display: none;
+    }
+
+    .navigation-menu{
+        right: 0;
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        top: 0;
+        border: none;
+        background-color: transparent;
+        z-index: 15;
+
+    }
+
+    .navigation-items{
+        background-color: transparent;
+        color: var(--red);
+        font-size: 2.5rem;
+    }
+
+    .navigations-headlines{
+        color: var(--red);
+    
+    }
+
+    .navigation-items:hover{
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    
+
+    .dropdown-icon span{
+        background-color: var(--red);
+    }
+
+    .dropdown-list{
+        border-style: dashed;
+        border-width: 2px;
+        border-top: none;
+        border-color: var(--red);
+        background-color: var(--lightpink);
+        flex-direction: column;
+    }
+
+
+    /* fonte */
+    
+    .first-h1{
+        margin-top: 35%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .h1{
+        font-family: StretchedReadex;
+        font-size: 7.08rem;
+        margin-left: 10rem;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .h2{
+        font-family: Readex Pro;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 5rem;
+        margin-left: 10rem;
+    }
+    
+    .h3{
+        font-family: "Oswald";
+        font-weight: 200;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin-left: 10rem;
+        margin-right: 5%;
+        margin-top: 2%;
+    }
+    
+    .h4{
+        font-family: Oswald;
+        font-size: 1.67rem;
+        font-weight: 500;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .h5{
+        font-family: Roboto;
+        text-transform: uppercase;
+        font-size: 1.42rem;
+        font-weight: 500;
+        margin-left: 5%;
+    }
+    
+    .h6{
+        font-family: Oswald;
+        font-size: 1.25rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+    
+    
+
+    
+    .p{
+        font-family: Readex Pro;
+        font-weight: 300;
+        font-size: 1.33rem;   
+        margin-bottom: 2vw;                                                                                                                                                   
+    }
+
+
+
+
+    /* Buttons */
+
+    .btn{
+        font-family: Roboto;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 1.42rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 245px;
+        height: 42px;
+    
+    }
+    
+    .double-btn{
+        font-family: Roboto;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 1.42rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 245px;
+        height: 65px;
+        text-align: center;
+    }
+    
+    .btn-dash{
+        color: var(--blue);
+        border-style: dashed;
+        border-width: 2px;
+        box-sizing: border-box;
+        background-color: var(--lightpink);
+    }
+    
+    .btn-dash :hover{
+        border-style: var(--blue) solid;
+        cursor: pointer;
+    }
+    
+    .btn-blue{
+        color: var(--white);
+        background-color: var(--blue);
+    }
+    
+    .btn-blue :hover{
+        background-color: #040DA2;
+        cursor: pointer;
+    }
+
+
+
+    
+    .text-slange{
+        font-size: 2rem;
+        
+    }
+
+    text{
+        transform:translate3d(0,.8rem,0);
+    }
+
+
+
+
+
+    /* Footer */
+    .footer-img{
+        margin-bottom: -130px;
+        margin-top: 5vw;
+        width: 20vw;
+        display: flex;
+        margin-left: 20rem;
+        margin-right: auto;
+    }
+    
+    footer{
+        background-color: var(--black);
+    }
+    
+    .negativt-logo{
+        width: 15rem;
+        margin-left: 10rem;
+    }
+    
+    .a-footer{
+        color: var(--white);
+        text-align: end;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        justify-content: space-between;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    
+    .footer-text-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10vw;
+        width: 50%;
+        align-items: center;
+    }
+    
+    .line-under-dropdown-item-footer{
+        margin: 0; 
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--white);
+        height: 2px;
+        
+    }
+    
+    .some-icon{
+        width: 2rem;
+        padding: 15%;
+    }
+    
+    .some-icon-section{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .a-some{
+        padding: 2%;
+    }
+
+
+}
+

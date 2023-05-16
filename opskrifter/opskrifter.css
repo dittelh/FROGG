@@ -76,11 +76,19 @@
 
 
 
-
-.tern-img-opskrifter{
-    transform: rotate(90deg);
-    width: 100vw;
+.st5{
+    fill:#FAF0F7;
 }
+
+.st1{
+    fill:#DA503C;
+}
+
+.tern{
+    width: 110vw;
+    
+}
+
 
 .text-banner-infinity{
     display: flex;
