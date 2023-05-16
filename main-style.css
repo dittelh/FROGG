@@ -361,7 +361,7 @@ a{
 
 .h1{
     font-family: StretchedReadex;
-    font-size: 5.31rem;
+    font-size: 3.98rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -370,14 +370,14 @@ a{
     font-family: Readex Pro;
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 3.75rem;
+    font-size: 2.8rem;
     margin: 5% 5%;
 }
 
 .h3{
     font-family: "Oswald";
     font-weight: 200;
-    font-size: 1.875rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     margin-left: 5%;
     margin-right: 5%;
@@ -385,7 +385,7 @@ a{
 
 .h4{
     font-family: Oswald;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-left: 5%;
     margin-right: 5%;
@@ -394,14 +394,14 @@ a{
 .h5{
     font-family: Roboto;
     text-transform: uppercase;
-    font-size: 1.16rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-left: 5%;
 }
 
 .h6{
     font-family: Oswald;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0;
@@ -427,7 +427,7 @@ a{
 .p{
     font-family: Readex Pro;
     font-weight: 300;
-    font-size:1rem;                                                                                                                                                      
+    font-size: 1rem;                                                                                                                                                      
 }
 
 
@@ -436,9 +436,9 @@ a{
 
 .btn{
     font-family: Roboto;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
-    font-size: 1.17rem;
+    font-size: 1rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -452,7 +452,7 @@ a{
     font-family: Roboto;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 1.17rem;
+    font-size: 1rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -618,7 +618,7 @@ text{
     .navigation-items{
         background-color: transparent;
         color: var(--red);
-        font-size: 2.5rem;
+        font-size: 1.875rem;
     }
 
     .navigations-headlines{
@@ -658,7 +658,7 @@ text{
     
     .h1{
         font-family: StretchedReadex;
-        font-size: 7.08rem;
+        font-size: 5.3rem;
         margin-left: 10rem;
         margin-right: 5%;
         margin-bottom: 2%;
@@ -668,14 +668,14 @@ text{
         font-family: Readex Pro;
         font-weight: 300;
         text-transform: uppercase;
-        font-size: 5rem;
+        font-size: 3.75rem;
         margin-left: 10rem;
     }
     
     .h3{
         font-family: "Oswald";
         font-weight: 200;
-        font-size: 2.5rem;
+        font-size: 1.875rem;
         text-transform: uppercase;
         margin-left: 10rem;
         margin-right: 5%;
@@ -684,7 +684,7 @@ text{
     
     .h4{
         font-family: Oswald;
-        font-size: 1.67rem;
+        font-size: 1.25rem;
         font-weight: 500;
         margin-left: 5%;
         margin-right: 5%;
@@ -693,14 +693,14 @@ text{
     .h5{
         font-family: Roboto;
         text-transform: uppercase;
-        font-size: 1.42rem;
+        font-size: 1.06rem;
         font-weight: 500;
         margin-left: 5%;
     }
     
     .h6{
         font-family: Oswald;
-        font-size: 1.25rem;
+        font-size: 1.06rem;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 0;
@@ -712,7 +712,7 @@ text{
     .p{
         font-family: Readex Pro;
         font-weight: 300;
-        font-size: 1.33rem;   
+        font-size: 1rem;   
         margin-bottom: 2vw;                                                                                                                                                   
     }
 
@@ -725,7 +725,7 @@ text{
         font-family: Roboto;
         font-weight: 400;
         text-transform: uppercase;
-        font-size: 1.42rem;
+        font-size: 1.06rem;
         text-decoration: none;
         display: flex;
         justify-content: center;
@@ -739,7 +739,7 @@ text{
         font-family: Roboto;
         font-weight: 400;
         text-transform: uppercase;
-        font-size: 1.42rem;
+        font-size: 1.06rem;
         text-decoration: none;
         display: flex;
         justify-content: center;

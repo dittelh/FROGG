@@ -293,9 +293,10 @@
         border-bottom: var(--red) solid 1px;
         border-top: var(--red) solid 1px;
         display: flex;
-        padding-left: 15rem;
-        padding-right: 15rem;
+        padding-left: 12vw;
+        padding-right: 12vw;
         padding-bottom: 3vw;
+        width: 100vw;
     }
     
     .sommertoppen-section{
@@ -320,7 +321,7 @@
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        width: 17vw;
+        width: 20vw;
     }
     
     .opskrift-section-img{
