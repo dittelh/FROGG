@@ -42,18 +42,30 @@
 }
 
 .st0{
-    fill:none;stroke:#70F054;stroke-width:100;stroke-miterlimit:10;
+    fill:none;
+    stroke:#70F054;
+    stroke-width:100;
+    stroke-miterlimit:10;
 }
 
 
-.photo-container{
+
+
+.purple-text-box{
+    margin-top: 15%;
+    width: 90vw;
+    background-color: var(--purple);
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+.img-inspo-div1{
     display: flex;
-    max-width: 90vw;
-    margin-top: 4vw;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90vw;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .square-img{
@@ -62,11 +74,7 @@
     border: var(--red) solid 1px;
     box-sizing: border-box;
     object-fit: cover;
-}
-
-.square-item{
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-top: 5vw;
 }
 
 .square-text-box{
@@ -80,6 +88,7 @@
     border: var(--red) solid 1px;
     box-sizing: border-box;
     margin: 0;
+    margin-top: 5vw;
 }
 
 
@@ -91,10 +100,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 43vw;
 }
 
 .btn-photo-container{
-   margin-top: -1.25rem; 
+   margin-top: -1.25rem;
+    
 }
 
 .crochet-font-section{
@@ -134,9 +145,6 @@
         transform: translateX(-900vw);
     }
 }
-
-
-
 
 
 
@@ -191,8 +199,11 @@
     }
 
     .first-text-span{
-        margin-top: 5vw;
+        margin-top: 0%;
         border-bottom: var(--red) 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     #taske-billede{
@@ -234,7 +245,7 @@
     .btn-container{
         display: flex;
         margin-left: 10rem;
-        margin-top: 5vw;
+        margin-top: 2vw;
         width: 33rem;
         justify-content: space-between;
     }
@@ -248,13 +259,67 @@
 
     .slange{
         margin-top: 8vw;
+        margin-bottom: 8vw;
     }
     
 
+    .square-img{
+        width: 19.5vw;
+        height: 19.5vw;
+        border: var(--red) solid 2px;
+        margin: unset;
+    }
 
+    .square-text-box{
+        width: 19.5vw;
+        height: 19.5vw;
+        font-weight: 300;
+        font-size: 1rem;
+        padding: 5%;
+        border: var(--red) solid 2px;
+        margin-top: unset;
+        
+    }
 
+    .all-img-div{
+        display: flex;
+        width: 80vw;
+        height: 40vw;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .purple-text-box{
+        width: 100%;
+        height: 19.5vw;
+        border: var(--red) solid 2px;
+        margin: unset;
+    }
 
+    .text-and-btn-container {
+        width: unset;
+        position: relative;
+    }
+
+    .btn-photo-container {
+        position: absolute;
+        bottom: -1rem;
+    }
+
+    .img-section1{
+        display: flex;
+        width: 39.5vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .img-section2{
+        display: flex;
+        width: 39.5vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 
     .crochet-font-section{
         width: 100vw;
@@ -273,14 +338,23 @@
         overflow: hidden;
         background-color: var(--yellow);
         border-bottom: var(--red) solid 1px;
-        border-top: var(--red) solid 1px;
+        border-top: var(--red) solid 2px;
         width: 100vw;
     }
     
+    @keyframes move-rtl{
+        0% {
+            transform: translateX(100vw);
+        }
+        100% {
+            transform: translateX(-400vw);
+        }
+    }
+
     .banner-text{
         white-space: nowrap;
         padding: 0 0;
-        animation: move-rtl 45000ms linear infinite;
+        animation: move-rtl 20000ms linear infinite;
         margin-top: 1%;
         margin-bottom: 1%;
         margin-left: 2%;
@@ -290,13 +364,13 @@
     .green-opskrift-section{
         background-color: var(--green);
         padding-top: 3vw;
-        border-bottom: var(--red) solid 1px;
+        border-bottom: var(--red) solid 2px;
         border-top: var(--red) solid 1px;
         display: flex;
         padding-left: 12vw;
         padding-right: 12vw;
         padding-bottom: 3vw;
-        width: 100vw;
+        width: 1;
     }
     
     .sommertoppen-section{
@@ -333,10 +407,8 @@
     }
 
 
-
-
-
-
-
 }
 
+@media screen and (min-width: 1400px) {
+    
+}

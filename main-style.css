@@ -223,7 +223,7 @@ a{
     background-color: var(--red);
     font-family: "Oswald";
     font-weight: 200;
-    font-size: 1.88rem;
+    font-size: 1.4rem;
     width: 15rem;
     display: flex;
     justify-content: end;
@@ -492,15 +492,7 @@ a{
 
 
 
-.purple-text-box{
-    margin-top: 15%;
-    width: 90vw;
-    background-color: var(--purple);
-    margin-left: auto;
-    margin-right: auto;
-    border: var(--red) solid 1px;
-    box-sizing: border-box;
-}
+
 
 
 
@@ -589,11 +581,24 @@ footer{
    fill: var(--blue);
 }
 
+.web-slange{
+    display: none;
+}
+
 
 text{
     transform:translate3d(0,1.5rem,0);
 }
 
+@media screen and (min-width: 1195px){
+
+
+}
+
+
+
+
+/* main */
 @media screen and (min-width: 992px){
 
     
@@ -608,17 +613,19 @@ text{
         display: flex;
         flex-direction: row;
         width: 80vw;
-        top: 0;
+        top: 0.4vw;
         border: none;
         background-color: transparent;
         z-index: 15;
-
+        margin-bottom: 0;
     }
 
     .navigation-items{
         background-color: transparent;
         color: var(--red);
         font-size: 1.875rem;
+        justify-content: center;
+        margin-bottom: 0;
     }
 
     .navigations-headlines{
@@ -626,12 +633,18 @@ text{
     
     }
 
-    .navigation-items:hover{
+    .navigations-headlines:hover, #haekleskole:hover, .dropdown-listitems:hover{
         font-weight: 400;
         cursor: pointer;
     }
 
-    
+    #headline-container{
+        padding-bottom: .3rem;
+    }
+
+    .dropdown-icon{
+        margin-left: 1.5rem;
+    }
 
     .dropdown-icon span{
         background-color: var(--red);
@@ -654,6 +667,10 @@ text{
         margin-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .frogg-text{
+        margin-right: 0% !important;
     }
     
     .h1{
@@ -784,6 +801,13 @@ text{
         transform:translate3d(0,.8rem,0);
     }
 
+    .mobile-slange{
+        display: none;
+    }
+
+    .web-slange{
+        display: unset;
+    }
 
 
 
@@ -803,7 +827,7 @@ text{
     }
     
     .negativt-logo{
-        width: 15rem;
+        width: 12rem;
         margin-left: 10rem;
     }
     
@@ -858,4 +882,3 @@ text{
 
 
 }
-
