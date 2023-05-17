@@ -58,163 +58,186 @@
     <body>
         <h1 class="h1 red-font first-h1">SommEr toP</h1>
         <h4 class="h4 red-font">Denne opskrift er på en meget fin og sød top, som kan laves i alverdens farver og længder. </h4>
-        <!-- https://oxygen4fun.supadezign.com/tutorials/how-to-animate-a-text-along-a-path/ (inspiration på animatiomn herfra d. 13/05/2023) -->
-        <div class="margin-bottom">
-            <img class="opskriften-img" src="../../assets/img/top.jpg" alt="Hæklet sommer top">
-            <div class="btn-container">
-                <a class="double-btn btn-dash" href="opskrifter/opskrifter.html">download <br>opskrift (DK)</a>
-                <a class="double-btn btn-blue" href="inspiration/inspiration.html">download <br>opskrift (US)</a>
+        <div class="first-div-opskriften">
+            <div class="margin-bottom">
+                <img class="opskriften-img" src="../../assets/img/top.jpg" alt="Hæklet sommer top">
+                <div class="btn-container">
+                    <a class="double-btn btn-dash" href="opskrifter/opskrifter.html">download <br>opskrift (DK)</a>
+                    <a class="double-btn btn-blue" href="inspiration/inspiration.html">download <br>opskrift (US)</a>
+                </div>
             </div>
+           <!-- https://oxygen4fun.supadezign.com/tutorials/how-to-animate-a-text-along-a-path/ (inspiration på animatiomn herfra d. 13/05/2023) -->
+            <svg class="slange hide-slange" version="1.1" id="Lag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 1242 229.5" style="enable-background:new 0 0 1242 229.5;" xml:space="preserve">
+                <path id="curve" class="st0" d="M0,142.99c49,0,67.01-54.1,100.43-49.82c33.42,4.28,35.82,61.18,99.86,63.47
+                c64.03,2.28,110.18-86.63,165.08-84.99c54.9,1.64,78.24,30.02,145.03,79.9c66.79,49.88,131.67-89.61,232.46-90.34S852,118,914,130
+                c28.61,5.54,66.97,8.32,123-27c74.37-46.88,155,4,205,4"/>
+                <text text-anchor="middle" width="100%">
+                    <textPath class="text-slange mobile-slange" alignment-baseline="center" xlink:href="#curve" href="#curve">
+                        <animate attributeName="startOffset" from="100%" to="-50%" begin="0s" dur="12s" repeatCount="indefinite"></animate>
+                        try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - 
+                    </textPath>
+                    <textPath class="text-slange web-slange" alignment-baseline="center" xlink:href="#curve" href="#curve">
+                        <animate attributeName="startOffset" from="100%" to="-15%" begin="0s" dur="11s" repeatCount="indefinite"></animate>
+                        try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat -try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat -
+                    </textPath>
+                </text>
+            </svg>
+            <section class="margin-bottom">
+                <h3 class="h3 red-font h3-margin">forkortelser der bliver brugt i denne opskrift:</h3>
+                <div id="headline-container" class="termer-container" onclick="openDropdown('maske-icon', 'maske-dropdown')">
+                    <h5 class="h5" id="maske">m = maske</h5>
+                    <div class="dropdown-icon dropdown-icon-right" id="maske-icon">
+                        <button class="dropdown-button"></button>
+                        <span class="arrow-side-1 arrow-side-translate"></span>
+                        <span class="arrow-side-2"></span>
+                    </div>
+                </div>
+                <div id="maske-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">st = stich</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">st = stitch</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Maske er blot en overordnet beskrivelse fra de mange forskellige typer af masker der findes, men specificere ikke en bestemt type maske.</p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../../assets/img/hat.png" alt="bøllehat">
+                </div>
+                
+                <div id="headline-container" class="termer-container" onclick="openDropdown('luftmaske-icon', 'luftmaske-dropdown')">
+                    <h5 class="h5" id="luftmaske">lm = luftmaske</h5>
+                    <div class="dropdown-icon dropdown-icon-right" id="luftmaske-icon">
+                        <button class="dropdown-button"></button>
+                        <span class="arrow-side-1 arrow-side-translate"></span>
+                        <span class="arrow-side-2"></span>
+                    </div>
+                </div>
+                <div id="luftmaske-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">ch = chain stitch</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">ch = chain stitch</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Lav en løkke på garnet, og sæt den på din hæklenål – træk det sammen så det strammes op på din nål.
+                        Slå garnet om din hæklenål, og træd det nu igennem løkken, nu har du en lm, fortsæt til du har det antal du skal bruge, eller det som opskriften foreskriver.
+                    </p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../../assets/img/taske.jpg" alt="bøllehat">
+                </div>
+    
+                <div id="headline-container" class="termer-container" onclick="openDropdown('fastmaske-icon', 'fastmaske-dropdown')">
+                    <h5 class="h5" id="fastmaske">fm = fastmaske</h5>
+                    <div class="dropdown-icon dropdown-icon-right" id="fastmaske-icon">
+                        <button class="dropdown-button"></button>
+                        <span class="arrow-side-1 arrow-side-translate"></span>
+                        <span class="arrow-side-2"></span>
+                    </div>
+                </div>
+                <div id="fastmaske-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">sc = single crochet</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">dc = double crochet</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Før nålen igennem en maske, slå garnet om nålen og træk det igennem masken, så der nu er 2 løkker på nålen, slå om garnet igen og træk garnet igennem begge løkker, nu har du en fm.
+                    </p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../../assets/img/troeje.png" alt="bøllehat">
+                </div>
+    
+                <div id="headline-container" class="termer-container" onclick="openDropdown('halvstangmaske-icon', 'halvstangmaske-dropdown')">
+                    <h5 class="h5" id="halvstangmaske">hstgm = halvstangmaske</h5>
+                    <div class="dropdown-icon dropdown-icon-right" id="halvstangmaske-icon">
+                        <button class="dropdown-button"></button>
+                        <span class="arrow-side-1 arrow-side-translate"></span>
+                        <span class="arrow-side-2"></span>
+                    </div>
+                </div>
+                <div id="halvstangmaske-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">hdc = half double crochet</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">htr = half treble crochet</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Hstgm står for halvstangmaske. For at hækle en halvstangmaske, skal du slå garnet om hæklenålen, stikke gennem masken og slå om igen. Der er nu 3 løkker på hæklenålen. Slå garnet om igen og træk igennem alle 3 løkker. Der er nu hæklet en halvstangmaske.
+                    </p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../../assets/img/top.jpg" alt="bøllehat">
+                </div>
+    
+                <div id="headline-container" class="termer-container" onclick="openDropdown('stangmaske-icon', 'stangmaske-dropdown')">
+                    <h5 class="h5" id="stangmaske">stgm = stangmaske</h5>
+                    <div class="dropdown-icon dropdown-icon-right" id="stangmaske-icon">
+                        <button class="dropdown-button"></button>
+                        <span class="arrow-side-1 arrow-side-translate"></span>
+                        <span class="arrow-side-2"></span>
+                    </div>
+                </div>
+                <div id="stangmaske-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">dc = double crochet</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">trc = treble crochet</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Slå garnet om nålen, før det igennem masken, slå garnet omkring nålen igen og træk det igennem masken – du har nu 3 løkker på din nål.
+                        Slå garnet om nålen, og træk igennem de 2 forreste løkker på nålen. Slå om igen og træk garnet igennem de sidste 2 løkker på nålen – nu har du lavet en stgm.</p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../../assets/img/hat.png" alt="bøllehat">
+                </div>
+            </section>
         </div>
-        <svg class="slange slange-margin" version="1.1" id="Lag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <!-- https://oxygen4fun.supadezign.com/tutorials/how-to-animate-a-text-along-a-path/ (inspiration på animatiomn herfra d. 13/05/2023) -->
+        <svg class="slange" version="1.1" id="Lag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 1242 229.5" style="enable-background:new 0 0 1242 229.5;" xml:space="preserve">
             <path id="curve" class="st0" d="M0,142.99c49,0,67.01-54.1,100.43-49.82c33.42,4.28,35.82,61.18,99.86,63.47
             c64.03,2.28,110.18-86.63,165.08-84.99c54.9,1.64,78.24,30.02,145.03,79.9c66.79,49.88,131.67-89.61,232.46-90.34S852,118,914,130
             c28.61,5.54,66.97,8.32,123-27c74.37-46.88,155,4,205,4"/>
-            <text text-anchor="middle" width="100%" style="transform:translate3d(0,1.5rem,0);">
-                <textPath class="text-slange" alignment-baseline="center" xlink:href="#curve" href="#curve">
+            <text text-anchor="middle" width="100%">
+                <textPath class="text-slange mobile-slange" alignment-baseline="center" xlink:href="#curve" href="#curve">
                     <animate attributeName="startOffset" from="100%" to="-50%" begin="0s" dur="12s" repeatCount="indefinite"></animate>
                     try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - 
                 </textPath>
+                <textPath class="text-slange web-slange" alignment-baseline="center" xlink:href="#curve" href="#curve">
+                    <animate attributeName="startOffset" from="100%" to="-15%" begin="0s" dur="11s" repeatCount="indefinite"></animate>
+                    try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat -try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat - try - fail - repeat -
+                </textPath>
             </text>
-        </svg>  
-        <section class="margin-bottom">
-            <h3 class="h3 red-font">forkortelser der bliver brugt i denne opskrift:</h3>
-            <div id="headline-container" class="termer-container" onclick="openDropdown('maske-icon', 'maske-dropdown')">
-                <h5 class="h5" id="maske">m = maske</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="maske-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
-                </div>
-            </div>
-            <div id="maske-dropdown" class="termer-dropdown hide-element">
-                <div class="oversættelses-container">
-                    <div class="amerikansk-container">
-                        <h6 class="h6">Amerikansk</h6>
-                        <p class="p p-termer">st = stich</p>
-                    </div>
-                    <div class="britisk-container">
-                        <h6 class="h6">Britisk</h6>
-                        <p class="p p-termer">st = stitch</p>
-                    </div>
-                </div>
-                <h6 class="h6">How to</h6>
-                <p class="p p-termer">Maske er blot en overordnet beskrivelse fra de mange forskellige typer af masker der findes, men specificere ikke en bestemt type maske.</p>
-                <h6 class="h6">Videoguide</h6>
-                <!-- Skal være en video, billedet er blot placeholder -->
-                <img class="termer-video" src="../../assets/img/hat.png" alt="bøllehat">
-            </div>
-            
-            <div id="headline-container" class="termer-container" onclick="openDropdown('luftmaske-icon', 'luftmaske-dropdown')">
-                <h5 class="h5" id="luftmaske">lm = luftmaske</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="luftmaske-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
-                </div>
-            </div>
-            <div id="luftmaske-dropdown" class="termer-dropdown hide-element">
-                <div class="oversættelses-container">
-                    <div class="amerikansk-container">
-                        <h6 class="h6">Amerikansk</h6>
-                        <p class="p p-termer">ch = chain stitch</p>
-                    </div>
-                    <div class="britisk-container">
-                        <h6 class="h6">Britisk</h6>
-                        <p class="p p-termer">ch = chain stitch</p>
-                    </div>
-                </div>
-                <h6 class="h6">How to</h6>
-                <p class="p p-termer">Lav en løkke på garnet, og sæt den på din hæklenål – træk det sammen så det strammes op på din nål.
-                    Slå garnet om din hæklenål, og træd det nu igennem løkken, nu har du en lm, fortsæt til du har det antal du skal bruge, eller det som opskriften foreskriver.
-                </p>
-                <h6 class="h6">Videoguide</h6>
-                <!-- Skal være en video, billedet er blot placeholder -->
-                <img class="termer-video" src="../../assets/img/taske.jpg" alt="bøllehat">
-            </div>
-
-            <div id="headline-container" class="termer-container" onclick="openDropdown('fastmaske-icon', 'fastmaske-dropdown')">
-                <h5 class="h5" id="fastmaske">fm = fastmaske</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="fastmaske-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
-                </div>
-            </div>
-            <div id="fastmaske-dropdown" class="termer-dropdown hide-element">
-                <div class="oversættelses-container">
-                    <div class="amerikansk-container">
-                        <h6 class="h6">Amerikansk</h6>
-                        <p class="p p-termer">sc = single crochet</p>
-                    </div>
-                    <div class="britisk-container">
-                        <h6 class="h6">Britisk</h6>
-                        <p class="p p-termer">dc = double crochet</p>
-                    </div>
-                </div>
-                <h6 class="h6">How to</h6>
-                <p class="p p-termer">Før nålen igennem en maske, slå garnet om nålen og træk det igennem masken, så der nu er 2 løkker på nålen, slå om garnet igen og træk garnet igennem begge løkker, nu har du en fm.
-                </p>
-                <h6 class="h6">Videoguide</h6>
-                <!-- Skal være en video, billedet er blot placeholder -->
-                <img class="termer-video" src="../../assets/img/troeje.png" alt="bøllehat">
-            </div>
-
-            <div id="headline-container" class="termer-container" onclick="openDropdown('halvstangmaske-icon', 'halvstangmaske-dropdown')">
-                <h5 class="h5" id="halvstangmaske">hstgm = halvstangmaske</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="halvstangmaske-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
-                </div>
-            </div>
-            <div id="halvstangmaske-dropdown" class="termer-dropdown hide-element">
-                <div class="oversættelses-container">
-                    <div class="amerikansk-container">
-                        <h6 class="h6">Amerikansk</h6>
-                        <p class="p p-termer">hdc = half double crochet</p>
-                    </div>
-                    <div class="britisk-container">
-                        <h6 class="h6">Britisk</h6>
-                        <p class="p p-termer">htr = half treble crochet</p>
-                    </div>
-                </div>
-                <h6 class="h6">How to</h6>
-                <p class="p p-termer">Hstgm står for halvstangmaske. For at hækle en halvstangmaske, skal du slå garnet om hæklenålen, stikke gennem masken og slå om igen. Der er nu 3 løkker på hæklenålen. Slå garnet om igen og træk igennem alle 3 løkker. Der er nu hæklet en halvstangmaske.
-                </p>
-                <h6 class="h6">Videoguide</h6>
-                <!-- Skal være en video, billedet er blot placeholder -->
-                <img class="termer-video" src="../../assets/img/top.jpg" alt="bøllehat">
-            </div>
-
-            <div id="headline-container" class="termer-container" onclick="openDropdown('stangmaske-icon', 'stangmaske-dropdown')">
-                <h5 class="h5" id="stangmaske">stgm = stangmaske</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="stangmaske-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
-                </div>
-            </div>
-            <div id="stangmaske-dropdown" class="termer-dropdown hide-element">
-                <div class="oversættelses-container">
-                    <div class="amerikansk-container">
-                        <h6 class="h6">Amerikansk</h6>
-                        <p class="p p-termer">dc = double crochet</p>
-                    </div>
-                    <div class="britisk-container">
-                        <h6 class="h6">Britisk</h6>
-                        <p class="p p-termer">trc = treble crochet</p>
-                    </div>
-                </div>
-                <h6 class="h6">How to</h6>
-                <p class="p p-termer">Slå garnet om nålen, før det igennem masken, slå garnet omkring nålen igen og træk det igennem masken – du har nu 3 løkker på din nål.
-                    Slå garnet om nålen, og træk igennem de 2 forreste løkker på nålen. Slå om igen og træk garnet igennem de sidste 2 løkker på nålen – nu har du lavet en stgm.</p>
-                <h6 class="h6">Videoguide</h6>
-                <!-- Skal være en video, billedet er blot placeholder -->
-                <img class="termer-video" src="../../assets/img/hat.png" alt="bøllehat">
-            </div>
-        </section>
+        </svg>
         <section class="green-text-box">
             <h2 class="h2 blue-font">det skal du <span class="didot-font">bruge</span></h2>
         </section>

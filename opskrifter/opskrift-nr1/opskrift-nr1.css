@@ -221,11 +221,65 @@ input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
 }
 
+.web-slange{
+    display: none;
+}
 
 
 
-
-input[type=checkbox]:checked +  .p-padding{
+@media screen and (min-width: 992px){
+    .st0{
+        fill:none;
+        stroke:#70F054;
+        stroke-width:60;
+        stroke-miterlimit:10;
+    }
     
+    .slange{
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    .mobile-slange{
+        display: none;
+    }
+
+    .web-slange{
+        display: unset;
+    }
+
+    .hide-slange{
+        display: none;
+    }
+
+    .opskriften-img{
+        width: 35vw;
+        height: 35vw;
+        margin-left: 5vw;
+        margin-right: 0;
+        border: var(--red) solid 2px;
+        margin-bottom: 5%;
+        margin-top: 3.7vw;
+    }
+
+    .first-div-opskriften{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 10rem;
+        margin-right: auto;
+        justify-content: flex-end;
+    }
+
+    .btn-container{
+        display: flex;
+        margin-left: 5vw;
+        width: 28vw;
+        justify-content: space-between;
+    }
+
+    .h3-margin{
+        margin-left: 0%;
+    }
+
 }
 
