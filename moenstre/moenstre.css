@@ -21,6 +21,10 @@
     margin-top: 0 !important;
 }
 
+#klistermaerke-img{
+    display: none;
+}
+
 @media screen and (min-width: 992px){
     .moenstre-img{
         width: 30vw;
@@ -70,7 +74,7 @@
     }
 
     .moenstre-content{
-        width: 80vw;
+        width: 85vw;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -80,4 +84,13 @@
         width: 40vw;
     }
 
+    #klistermaerke-img{
+        display: unset;
+        position: absolute;
+        right: 8vw;
+        top: 7vw;
+        width: 15vw;
+    }
+
 }
+
