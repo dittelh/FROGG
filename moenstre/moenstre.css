@@ -1,3 +1,9 @@
+#headline-container-moenstre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .moenstre-img{
     width: 90vw;
     display: flex;

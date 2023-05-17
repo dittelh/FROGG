@@ -1,3 +1,9 @@
+#headline-container-laer-at-haekle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .purple-section{
     background-color: var(--purple);
     width: 90vw;

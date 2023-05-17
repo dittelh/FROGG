@@ -83,7 +83,7 @@
     background-color: var(--yellow);
     font-family: Readex Pro;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.875rem;
     padding: 5%;
     border: var(--red) solid 1px;
     box-sizing: border-box;

@@ -196,6 +196,8 @@ header{
     padding-bottom: .7rem;
 }
 
+
+
 .line-under-dropdown-item{
    margin: 0; 
    width: 12.5rem;
@@ -361,7 +363,8 @@ a{
 
 .h1{
     font-family: StretchedReadex;
-    font-size: 3.98rem;
+    font-size: 3.94rem;
+    line-height: 3.728rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -370,7 +373,8 @@ a{
     font-family: Readex Pro;
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 2.8rem;
+    font-size: 2.625rem;
+    line-height: 3.15rem;
     margin: 5% 5%;
 }
 
@@ -378,6 +382,7 @@ a{
     font-family: "Oswald";
     font-weight: 200;
     font-size: 1.4rem;
+    line-height: 1.68rem;
     text-transform: uppercase;
     margin-left: 5%;
     margin-right: 5%;
@@ -385,7 +390,8 @@ a{
 
 .h4{
     font-family: Oswald;
-    font-size: 1rem;
+    font-size: 1.09rem;
+    line-height: 1.42rem;
     font-weight: 500;
     margin-left: 5%;
     margin-right: 5%;
@@ -395,13 +401,14 @@ a{
     font-family: Roboto;
     text-transform: uppercase;
     font-size: 1rem;
+    line-height: 1.18rem;
     font-weight: 500;
     margin-left: 5%;
 }
 
 .h6{
     font-family: Oswald;
-    font-size: 1rem;
+    font-size: 1.09rem;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0;
@@ -427,7 +434,8 @@ a{
 .p{
     font-family: Readex Pro;
     font-weight: 300;
-    font-size: 1rem;                                                                                                                                                      
+    font-size: 0.875rem;  
+    line-height: 1.05rem;                                                                                                                                                    
 }
 
 
@@ -444,7 +452,7 @@ a{
     justify-content: center;
     align-items: center;
     width: 145px;
-    height: 34px;
+    height: 39.35px;
 
 }
 
@@ -458,7 +466,7 @@ a{
     justify-content: center;
     align-items: center;
     width: 145px;
-    height: 51px;
+    height: 58.67px;
     text-align: center;
 }
 
@@ -590,10 +598,7 @@ text{
     transform:translate3d(0,1.5rem,0);
 }
 
-@media screen and (min-width: 1195px){
 
-
-}
 
 
 
@@ -622,8 +627,8 @@ text{
         right: 0;
         display: flex;
         flex-direction: row;
-        width: 80vw;
-        top: 1.1vw;
+        width: 65vw;
+        top: 1.4vw;
         border: none;
         background-color: transparent;
         z-index: 15;
@@ -633,9 +638,10 @@ text{
     .navigation-items{
         background-color: transparent;
         color: var(--red);
-        font-size: 1.875rem;
+        font-size: 1.3rem;
         justify-content: center;
         margin-bottom: 0;
+        margin-left: 0%;
     }
 
     .navigations-headlines{
@@ -648,12 +654,18 @@ text{
         cursor: pointer;
     }
 
-    #headline-container{
+    #headline-container{ 
+        display: flex;
         padding-bottom: .3rem;
+        flex-direction: row-reverse;
+        justify-content: center;
     }
+    
 
+    
     .dropdown-icon{
-        margin-left: 1.5rem;
+        /* margin-right: 2.5rem; */
+        right: 1.5rem;
     }
 
     .dropdown-icon span{
@@ -685,7 +697,8 @@ text{
     
     .h1{
         font-family: StretchedReadex;
-        font-size: 5.3rem;
+        font-size: 4.5rem;
+        line-height: 4.77rem;
         margin-left: 10rem;
         margin-right: 5%;
         margin-bottom: 2%;
@@ -695,14 +708,16 @@ text{
         font-family: Readex Pro;
         font-weight: 300;
         text-transform: uppercase;
-        font-size: 3.75rem;
+        font-size: 3rem;
+        line-height: 3.6rem;
         margin-left: 10rem;
     }
     
     .h3{
         font-family: "Oswald";
         font-weight: 200;
-        font-size: 1.875rem;
+        font-size: 1.6rem;
+        line-height: 2.08rem;
         text-transform: uppercase;
         margin-left: 10rem;
         margin-right: 5%;
@@ -712,6 +727,7 @@ text{
     .h4{
         font-family: Oswald;
         font-size: 1.25rem;
+        line-height: 1.625rem;
         font-weight: 500;
         margin-left: 10rem;
         margin-right: 5%;
@@ -721,13 +737,14 @@ text{
         font-family: Roboto;
         text-transform: uppercase;
         font-size: 1.06rem;
+        line-height: 1.25rem;
         font-weight: 500;
         margin-left: 5%;
     }
     
     .h6{
         font-family: Oswald;
-        font-size: 1.06rem;
+        font-size: 1.25rem;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 0;
