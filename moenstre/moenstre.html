@@ -55,93 +55,98 @@
         </nav>
     </header>
     <body>
-        <h1 class="h1 red-font first-h1">møNstre</h1>
+        <h1 class="h1 red-font first-h1 h1-web">møNstre</h1>
         <h4 class="h4 red-font">Her kan du se forskellige typer mønstre du kan benytte i dine egne hæklerier og lære hvordan de laves</h4>
-        <div class="moestre-section">
-            <img class="moenstre-img" src="../assets/img/bøllehat.png" alt="hæklet bøllehat">
-            <div id="headline-container-moenstre" class="termer-container moenstre-container" onclick="openDropdown('boelge-icon', 'boelge-dropdown')">
-                <h5 class="h5" id="boelge">bølger</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="boelge-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
+        <div class="moenstre-content">
+            <div class="moenstre-first-div">
+                <div class="moenstre-section">
+                    <img class="moenstre-img" src="../assets/img/bøllehat.png" alt="hæklet bøllehat">
+                    <div id="headline-container-moenstre" class="termer-container moenstre-container" onclick="openDropdown('boelge-icon', 'boelge-dropdown')">
+                        <h5 class="h5" id="boelge">bølger</h5>
+                        <div class="dropdown-icon dropdown-icon-right" id="boelge-icon">
+                            <button class="dropdown-button"></button>
+                            <span class="arrow-side-1 arrow-side-translate"></span>
+                            <span class="arrow-side-2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="boelge-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">Oversættelse</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">Oversættelse</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Her skal stå noget om dette mønster</p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../assets/img/hat.png" alt="bøllehat">
+                </div>
+        
+                <div class="moenstre-section">
+                    <img class="moenstre-img" src="../assets/img/taske.jpg" alt="hæklet taske">
+                    <div id="headline-container-moenstre" class="termer-container moenstre-container" onclick="openDropdown('bobler-icon', 'bobler-dropdown')">
+                        <h5 class="h5" id="bobler">bobler</h5>
+                        <div class="dropdown-icon dropdown-icon-right" id="bobler-icon">
+                            <button class="dropdown-button"></button>
+                            <span class="arrow-side-1 arrow-side-translate"></span>
+                            <span class="arrow-side-2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="bobler-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">Oversættelse</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">Oversættelse</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Her skal stå noget om dette mønster</p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../assets/img/hat.png" alt="bøllehat">
                 </div>
             </div>
-        </div>
-        <div id="boelge-dropdown" class="termer-dropdown hide-element">
-            <div class="oversættelses-container">
-                <div class="amerikansk-container">
-                    <h6 class="h6">Amerikansk</h6>
-                    <p class="p p-termer">Oversættelse</p>
+            <div class="moenstre-second-div">
+                <div>
+                    <img class="moenstre-img content-no-margin" src="../assets/img/troeje.png" alt="hæklet bøllehat">
+                    <div id="headline-container-moenstre" class="termer-container moenstre-container" onclick="openDropdown('muslinge-icon', 'muslinge-dropdown')">
+                        <h5 class="h5" id="muslinge">musling</h5>
+                        <div class="dropdown-icon dropdown-icon-right" id="muslinge-icon">
+                            <button class="dropdown-button"></button>
+                            <span class="arrow-side-1 arrow-side-translate"></span>
+                            <span class="arrow-side-2"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="britisk-container">
-                    <h6 class="h6">Britisk</h6>
-                    <p class="p p-termer">Oversættelse</p>
-                </div>
-            </div>
-            <h6 class="h6">How to</h6>
-            <p class="p p-termer">Her skal stå noget om dette mønster</p>
-            <h6 class="h6">Videoguide</h6>
-            <!-- Skal være en video, billedet er blot placeholder -->
-            <img class="termer-video" src="../assets/img/hat.png" alt="bøllehat">
-        </div>
-
-        <div class="moestre-section">
-            <img class="moenstre-img" src="../assets/img/taske.jpg" alt="hæklet taske">
-            <div id="headline-container-moenstre" class="termer-container moenstre-container" onclick="openDropdown('bobler-icon', 'bobler-dropdown')">
-                <h5 class="h5" id="bobler">bobler</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="bobler-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
-                </div>
-            </div>
-        </div>
-        <div id="bobler-dropdown" class="termer-dropdown hide-element">
-            <div class="oversættelses-container">
-                <div class="amerikansk-container">
-                    <h6 class="h6">Amerikansk</h6>
-                    <p class="p p-termer">Oversættelse</p>
-                </div>
-                <div class="britisk-container">
-                    <h6 class="h6">Britisk</h6>
-                    <p class="p p-termer">Oversættelse</p>
+                <div id="muslinge-dropdown" class="termer-dropdown hide-element">
+                    <div class="oversættelses-container">
+                        <div class="amerikansk-container">
+                            <h6 class="h6">Amerikansk</h6>
+                            <p class="p p-termer">Oversættelse</p>
+                        </div>
+                        <div class="britisk-container">
+                            <h6 class="h6">Britisk</h6>
+                            <p class="p p-termer">Oversættelse</p>
+                        </div>
+                    </div>
+                    <h6 class="h6">How to</h6>
+                    <p class="p p-termer">Her skal stå noget om dette mønster</p>
+                    <h6 class="h6">Videoguide</h6>
+                    <!-- Skal være en video, billedet er blot placeholder -->
+                    <img class="termer-video" src="../assets/img/hat.png" alt="bøllehat">
                 </div>
             </div>
-            <h6 class="h6">How to</h6>
-            <p class="p p-termer">Her skal stå noget om dette mønster</p>
-            <h6 class="h6">Videoguide</h6>
-            <!-- Skal være en video, billedet er blot placeholder -->
-            <img class="termer-video" src="../assets/img/hat.png" alt="bøllehat">
-        </div>
-
-        <div class="moestre-section">
-            <img class="moenstre-img" src="../assets/img/troeje.png" alt="hæklet bøllehat">
-            <div id="headline-container-moenstre" class="termer-container moenstre-container" onclick="openDropdown('muslinge-icon', 'muslinge-dropdown')">
-                <h5 class="h5" id="muslinge">musling</h5>
-                <div class="dropdown-icon dropdown-icon-right" id="muslinge-icon">
-                    <button class="dropdown-button"></button>
-                    <span class="arrow-side-1 arrow-side-translate"></span>
-                    <span class="arrow-side-2"></span>
-                </div>
-            </div>
-        </div>
-        <div id="muslinge-dropdown" class="termer-dropdown hide-element">
-            <div class="oversættelses-container">
-                <div class="amerikansk-container">
-                    <h6 class="h6">Amerikansk</h6>
-                    <p class="p p-termer">Oversættelse</p>
-                </div>
-                <div class="britisk-container">
-                    <h6 class="h6">Britisk</h6>
-                    <p class="p p-termer">Oversættelse</p>
-                </div>
-            </div>
-            <h6 class="h6">How to</h6>
-            <p class="p p-termer">Her skal stå noget om dette mønster</p>
-            <h6 class="h6">Videoguide</h6>
-            <!-- Skal være en video, billedet er blot placeholder -->
-            <img class="termer-video" src="../assets/img/hat.png" alt="bøllehat">
         </div>
     </body>
     <img class="footer-img" src="../assets/img/mand-undre-sig-tegning.png" alt="mand undre sig med garnnøgle på hovedet">

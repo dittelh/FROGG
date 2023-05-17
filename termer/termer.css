@@ -118,9 +118,9 @@
     .termer-container{
         width: 30vw;
         background-color: var(--purple);
-        margin-left: auto;
+        margin-left: 0;
         margin-right: auto;
-        border: var(--red) solid 1px;
+        border: var(--red) solid 2px;
         box-sizing: border-box;
         margin-top: 5%;
         height: 3vw;
@@ -148,7 +148,7 @@
         margin-left: 5%;
         margin-bottom: 5%;
         margin-top: 3%;
-        border: var(--red) solid 1px;
+        border: var(--red) solid 2px;
         box-sizing: border-box;
     }
 
