@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+.overflow-section{
+    position: relative;
+    overflow: hidden;
+}
 
 
 .opskrift-img{
@@ -91,7 +95,7 @@
 .tern-svg{
     position: absolute;
     z-index: -5;
-    top: 240%;
+    top: 230%;
     transform: rotateZ(90deg) scale(2);
 }
 
@@ -214,6 +218,7 @@
         }
     }
 
+    
 }
 
 @media screen and (min-width: 1600px){

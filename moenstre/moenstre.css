@@ -95,6 +95,17 @@
     #headline-container-moenstre:hover{
         cursor: pointer;
         background-color: var(--darkpurple);
-      }
+    }
+
+    #muslinge-dropdown{
+        margin-left: unset !important;
+        margin-right: unset !important;
+    }
+
+    #bobler-dropdown{
+        margin-left: 10rem !important;
+        margin-right: unset !important;
+    }
+
 }
 
