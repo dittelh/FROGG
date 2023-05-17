@@ -12,7 +12,11 @@
     border: var(--red) solid 1px;
     box-sizing: border-box;
     margin-top: 5%;
-    height: 20vw;
+    height: 17vw;
+}
+
+.left-section-termer{
+    margin-top: 15vw;
 }
 
 .termer-dropdown{
@@ -96,25 +100,34 @@
     }
 }
 
+#fjong-img{
+    display: none;
+}
+
 
 @media screen and (min-width: 992px){
+
+    .hide-web{
+        display: none;
+    }
+
     .h1-web{
         margin-top: 12vw;
     }
 
     .termer-container{
-        width: 35vw;
+        width: 30vw;
         background-color: var(--purple);
         margin-left: auto;
         margin-right: auto;
         border: var(--red) solid 1px;
         box-sizing: border-box;
         margin-top: 5%;
-        height: 4vw;
+        height: 3vw;
     }
     
     .termer-dropdown{
-        width: 90vw;
+        width: 30vw;
         border-style: dashed;
         border-width: 2px;
         border-top: none;
@@ -128,27 +141,40 @@
         padding-right: 3%;
     }
 
+    .termer-video{
+        width: 20vw;
+        height: 20vw;
+        object-fit: cover;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-top: 3%;
+        border: var(--red) solid 1px;
+        box-sizing: border-box;
+    }
 
     .termer-content{
         display: flex;
+        margin-left: 10rem;
+        width: 63vw;
+        justify-content: space-between;
     }
 
     .left-section-termer{
-
+        margin-top: 0vw;
     }
-
-    .right-section-termer{
-
-    }
-
-
-
-
 
     .st0{
         fill:none;
         stroke:#70F054;
         stroke-width:60;
         stroke-miterlimit:10;
+    }
+
+    #fjong-img{
+        width: 50vw;
+        display: unset;
+        position: absolute;
+        margin-top: 5vw;
+        right: 0;
     }
 }

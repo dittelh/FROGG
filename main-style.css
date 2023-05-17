@@ -606,6 +606,10 @@ text{
 /* main */
 @media screen and (min-width: 992px){
 
+    .h1-web{
+        margin-top: 12vw;
+    }
+
     #frogg-logo{
         width: 12rem;
     }
