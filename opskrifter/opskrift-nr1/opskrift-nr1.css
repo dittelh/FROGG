@@ -408,7 +408,8 @@ input[type=checkbox]:checked + label.strikethrough{
     .raekke-img{
         width: 25vw;
         height: 25vw;
-
+        border: var(--red) solid 2px;
+        
     }
 
     .img-div-web{
