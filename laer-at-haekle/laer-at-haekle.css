@@ -86,3 +86,8 @@
 .extra-margin{
     margin-top: 5%;
 }
+
+#headline-container-laer-at-haekle:hover{
+    cursor: pointer;
+    background-color: var(--darkpurple);
+  }

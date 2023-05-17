@@ -92,5 +92,9 @@
         width: 15vw;
     }
 
+    #headline-container-moenstre:hover{
+        cursor: pointer;
+        background-color: var(--darkpurple);
+      }
 }
 

@@ -177,4 +177,9 @@
         margin-top: 5vw;
         right: 0;
     }
+
+    #headline-container-termer:hover{
+      cursor: pointer;
+      background-color: var(--darkpurple);
+    }
 }
