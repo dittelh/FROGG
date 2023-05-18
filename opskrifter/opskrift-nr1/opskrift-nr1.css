@@ -1,4 +1,4 @@
-#headline-container-opskrift-nr1{
+.headline-container-opskrift-nr1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -262,6 +262,10 @@ input[type=checkbox]:checked + label.strikethrough{
     display: none;
 }
 
+.img-div-web{
+    display: none;
+}
+
 
 
 @media screen and (min-width: 992px){
@@ -322,7 +326,7 @@ input[type=checkbox]:checked + label.strikethrough{
         margin-left: 0%;
     }
 
-    #headline-container-opskrift-nr1:hover{
+    .headline-container-opskrift-nr1:hover{
         cursor: pointer;
         background-color: var(--darkpurple);
     }

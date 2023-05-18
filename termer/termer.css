@@ -1,4 +1,4 @@
-#headline-container-termer{
+.headline-container-termer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,7 +178,7 @@
         right: 0;
     }
 
-    #headline-container-termer:hover{
+    .headline-container-termer:hover{
       cursor: pointer;
       background-color: var(--darkpurple);
     }

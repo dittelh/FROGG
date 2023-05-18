@@ -1,10 +1,10 @@
-#headline-container-tips{
+.headline-container-tips{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#headline-container-tips:hover{
+.headline-container-tips:hover{
     cursor: pointer;
     background-color: var(--darkpurple);
 }

@@ -1,4 +1,4 @@
-#headline-container-laer-at-haekle{
+.headline-container-laer-at-haekle{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +87,7 @@
     margin-top: 5%;
 }
 
-#headline-container-laer-at-haekle:hover{
+.headline-container-laer-at-haekle:hover{
     cursor: pointer;
     background-color: var(--darkpurple);
 }
@@ -151,7 +151,7 @@
     }
 
 
-    #headline-container-laer-at-haekle {
+    .headline-container-laer-at-haekle {
         margin-left: 10rem;
         width: 45vw;
     }

@@ -1,4 +1,4 @@
-#headline-container-moenstre{
+.headline-container-moenstre{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +92,7 @@
         width: 15vw;
     }
 
-    #headline-container-moenstre:hover{
+    .headline-container-moenstre:hover{
         cursor: pointer;
         background-color: var(--darkpurple);
     }
