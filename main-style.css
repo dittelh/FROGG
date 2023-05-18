@@ -155,7 +155,6 @@ header{
     background-color: var(--lightpink);
     border: var(--red) 1px solid;
     margin-top: 0;
-    
 }
 
 .show-links{
@@ -186,6 +185,7 @@ header{
     padding-right: 1.25rem;
     padding-top: .7rem;
     padding-bottom: .7rem;
+    color: var(--red);
 }
 
 .dropdown-listitems a{
@@ -193,8 +193,8 @@ header{
 }
 
 #haekleskole{
-    padding-right: 1.25rem;
     padding-bottom: .7rem;
+    padding-right: 1.25rem;
 }
 
 
@@ -227,27 +227,33 @@ a{
     font-family: "Oswald";
     font-weight: 200;
     font-size: 1.4rem;
-    width: 15rem;
+    /* width: 13.7rem; */
     display: flex;
     justify-content: end;
     margin-left: auto;
     margin-bottom: 1rem;
     padding-top: .7rem;
     padding-bottom: .7rem;
+    /* margin-right: 1.25rem; */
+    padding-right: 1.25rem;
     
 }
 
 .navigations-headlines{
-    color: var(--lightpink);
-    padding-right: 1.25rem;
+    /* color: var(--lightpink);
+    background-color: var(--red); */
+    /* width: 13.7rem; */
+    margin-left: 0.9rem;
 }
 
 
 .dropdown-items-container{
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    /* margin-left: auto; */
+    margin-left: 0.9rem;
     padding-bottom: 0 !important;
+    padding-right: unset;
 }
 
 .dropdown-list{
@@ -607,6 +613,10 @@ text{
 /* main */
 @media screen and (min-width: 992px){
 
+    body {
+        overflow-x: hidden;
+    }
+
     .h1-web{
         margin-top: 12vw;
     }
@@ -647,6 +657,7 @@ text{
         justify-content: center;
         margin-bottom: 0;
         margin-left: 0%;
+        width: 13.7rem;
     }
 
     .navigations-headlines{
@@ -654,7 +665,7 @@ text{
     
     }
 
-    .navigations-headlines:hover, #haekleskole:hover, .dropdown-listitems:hover{
+    #haekleskole:hover, .dropdown-listitems:hover, .navigations-headlines .navigation-items:hover{
         font-weight: 400;
         cursor: pointer;
     }

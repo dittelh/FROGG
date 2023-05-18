@@ -79,6 +79,8 @@
     background-color: var(--purple);
     border: var(--red) solid 1px;
     box-sizing: border-box;
+    border-left: none;
+    border-right: none;
 }
 
 .contact-form{
@@ -222,6 +224,8 @@
         margin-top: 10%;
         border: var(--red) solid 2px;
         display: flex;
+        border-left: none;
+        border-right: none;
     }
 
     .contact-form{

@@ -451,6 +451,10 @@ input[type=checkbox]:checked + label.strikethrough{
         margin-top: 5%;
         margin-bottom: 7%;
     }
+
+    .checkbox-wrapper label:hover {
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 1750px){
