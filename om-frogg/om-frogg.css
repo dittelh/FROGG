@@ -43,6 +43,28 @@
     box-sizing: border-box;
 }
 
+.dash-section-about-frogg{
+    width: 90vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    border-color: var(--blue);
+    border-style: dashed;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: var(--lightpink);
+    margin-top: 5%;
+}
+
+.black-font-p{
+    color: var(--black);
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
 .text-banner-infinity{
     display: flex;
     justify-content: flex-start;
@@ -173,7 +195,14 @@
         margin-left: 5%;
     }
 
-
+    .dash-section-about-frogg{
+        width: 35vw;
+        display: flex;
+        margin-left: 10rem;
+        border-width: 2px;
+        margin-top: 5%;
+    }
+    
     .video-om-frogg{
         width: 35vw;
         height: 25vw;
