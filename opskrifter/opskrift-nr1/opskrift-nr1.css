@@ -470,6 +470,10 @@ input[type=checkbox]:checked + label.strikethrough{
         margin-left: 5%;
     }
 
+    .special-margin{
+        margin-left: 5%;
+    }
+
     .red-text-box{
         margin-top: 10%;
         width: 45vw;
