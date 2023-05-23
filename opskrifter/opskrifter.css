@@ -15,7 +15,7 @@
     box-sizing: border-box;
 }
 
-.overflow-section{
+#overflow-section{
     position: relative;
     overflow: hidden;
 }
