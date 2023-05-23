@@ -606,12 +606,20 @@ text{
 }
 
 
+.hide-mobile{
+    display: none;
+}
+
 
 
 
 
 /* main */
 @media screen and (min-width: 992px){
+
+    .hide-mobile{
+        display: flex;
+    }
 
     body {
         overflow-x: hidden;
