@@ -505,6 +505,6 @@ input[type=checkbox]:checked + label.strikethrough{
 @media screen and (min-width: 1750px){
     .img-div-web{
         right: 19vw;
-        top: 190vw;
+        top: 179vw;
     }
 }
