@@ -656,6 +656,7 @@ text{
         background-color: transparent;
         z-index: 15;
         margin-bottom: 0;
+        justify-content: space-around;
     }
 
     .navigation-items{
@@ -665,7 +666,7 @@ text{
         justify-content: center;
         margin-bottom: 0;
         margin-left: 0%;
-        width: 13.7rem;
+        /*width: 13.7rem;*/
     }
 
     .navigations-headlines{
