@@ -88,7 +88,7 @@
 
 .red-text-box{
     background-color: var(--red);
-    margin-top: 30%;
+    margin: 30% 5% 5% 5%;
 }
 
 .h4-margin{
@@ -478,6 +478,7 @@ input[type=checkbox]:checked + label.strikethrough{
         margin-top: 10%;
         width: 45vw;
         margin-left: 10rem;
+        margin-bottom: 1.5vw;
     }
 
     .dash-box{

@@ -8,6 +8,10 @@
 }
 
 
+.opskrifter-section div {
+    position: relative;
+}
+
 .opskrift-section{
     width: 43vw;
     margin-bottom: 20vw;
@@ -67,6 +71,7 @@
 .list-opskrifter{
     list-style-type: disc;
     padding-left: 7vw;
+    margin-bottom: 5rem;
 }
 
 .opskrift-btn{
@@ -75,6 +80,10 @@
     margin-right: auto;
     margin-bottom: -1rem;
     margin-top: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    right: 5%
 }
 
 .h3opskrift{
@@ -95,7 +104,7 @@
 .tern-svg{
     position: absolute;
     z-index: -5;
-    top: 230%;
+    top: 50%;
     transform: rotateZ(90deg) scale(2);
 }
 
@@ -181,9 +190,7 @@
     }
 
     .tern-svg{
-        position: absolute;
-        z-index: -5;
-        top: 160%;
+        top: 40%;
         left: 14%;
         transform: rotateZ(0deg) scale(1.1);
     }

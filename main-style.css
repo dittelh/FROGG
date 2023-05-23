@@ -160,6 +160,7 @@ header{
 .show-links{
     right: 0;
     animation: navigation-slidein .2s ease-in-out;
+    z-index: 10;
 }
 
 @keyframes navigation-slidein {
@@ -186,6 +187,7 @@ header{
     padding-top: .7rem;
     padding-bottom: .7rem;
     color: var(--red);
+    margin: 0;
 }
 
 .dropdown-listitems a{
@@ -236,6 +238,7 @@ a{
     padding-bottom: .7rem;
     /* margin-right: 1.25rem; */
     padding-right: 1.25rem;
+    margin-top: 0;
     
 }
 
@@ -651,7 +654,7 @@ text{
         display: flex;
         flex-direction: row;
         width: 65vw;
-        top: 1.4vw;
+        top: 1vw;
         border: none;
         background-color: transparent;
         z-index: 15;
@@ -666,11 +669,14 @@ text{
         justify-content: center;
         margin-bottom: 0;
         margin-left: 0%;
+        width: 10rem;
         /*width: 13.7rem;*/
+        margin-top: revert;
     }
 
     .navigations-headlines{
         color: var(--red);
+        width: 10rem;
     
     }
 
@@ -679,11 +685,22 @@ text{
         cursor: pointer;
     }
 
+    #haekleskole {
+        padding-top: 0.7rem;
+    }
+
     #headline-container{ 
         display: flex;
         padding-bottom: .3rem;
         flex-direction: row-reverse;
         justify-content: center;
+        margin-left: 2rem;
+        padding-top: 0.7rem;
+        height: 100%;
+    }
+
+    .line-under-dropdown-item {
+        width: 10rem;
     }
     
 

@@ -135,8 +135,8 @@
         background-color: var(--lightpink);
         /* display: flex; */
         flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: unset;
+        margin-right: unset;
         box-sizing: border-box;
         padding-right: 3%;
     }
