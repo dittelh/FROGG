@@ -62,6 +62,19 @@
     box-sizing: border-box;
 }
 
+#sommer-top-opskrift{
+    display: none;
+}
+
+.btn-container{
+    display: flex;
+    margin-left: 5%;
+    width: 80vw;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+
 
 @media screen and (min-width: 992px){
     .whole-img-div{
@@ -129,6 +142,52 @@
         justify-content: space-between;
     }
 
+
+    #sommer-top-opskrift{
+        background-image: url("../assets/img/top.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--blue);
+        font-family: Roboto;
+        text-decoration: none;
+        font-size: 5rem;
+        font-weight: 500;
+    }
+
+    #sommer-top-opskrift:hover{
+        font-size: 0rem;
+    }
+
+    #sommer-top-opskrift:hover:after{
+        content: attr(data-hover);
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: var(--blue);
+        font-weight: 400;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hide-website{
+        display: none;
+    }
+   
+    .btn-container{
+        display: flex;
+        margin-left: 10rem;
+        margin-top: 2vw;
+        width: 33rem;
+        justify-content: space-between;
+    }
 
 }
 
