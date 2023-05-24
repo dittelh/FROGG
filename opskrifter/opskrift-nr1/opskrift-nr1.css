@@ -421,6 +421,7 @@ input[type=checkbox]:checked + label.strikethrough{
         width: 39.5vw;
         margin-left: 0%;
         margin-right: 0%;
+        gap: 1.26%;
     }
 
     .square-img {
