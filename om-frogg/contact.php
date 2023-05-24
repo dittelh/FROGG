@@ -20,7 +20,7 @@ $mailMessage = "En kunde har udfyldt kontaktformen på FROGG.dk.<br><br>
 // Prepare headers for mail
 $headers =  "From: FROGG <frogg.helper@gmail.com>\r\n";
 $headers .= "Reply-To: $name <$email>\r\n";
-$headers .= "Return-Path: Hygieia <frogg.helper@gmail.com>\r\n";
+$headers .= "Return-Path: FROGG <frogg.helper@gmail.com>\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
