@@ -355,8 +355,8 @@ input[type=checkbox]:checked + label.strikethrough{
     .btn-container{
         display: flex;
         margin-left: 5vw;
-        width: 28vw;
-        justify-content: space-between;
+        width: 45vw;
+        justify-content: flex-start;
     }
 
     .h3-margin{
