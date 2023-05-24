@@ -615,6 +615,19 @@ text{
 
 
 
+/* Videoen */
+.video{
+    width: 60vw;
+    height: 60vw;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border: var(--red) solid 1px;
+    box-sizing: border-box;
+}
+
+
 
 
 /* main */
@@ -950,4 +963,16 @@ text{
     }
 
 
+
+    /* Videoen */
+    .video{
+        width: 20vw;
+        height: 20vw;
+        object-fit: cover;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-top: 3%;
+        border: var(--red) solid 2px;
+        box-sizing: border-box;
+    }
 }
