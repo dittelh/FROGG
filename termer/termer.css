@@ -56,8 +56,13 @@
 }
 
 .h6-less-margin{
-    margin-top: 3%;
+    margin-top: 6%;
 }
+
+.h6-even-more {
+    margin-top: 0%; 
+}
+
 
 .termer-video{
     width: 60vw;

@@ -25,6 +25,7 @@
     display: none;
 }
 
+
 @media screen and (min-width: 992px){
     .moenstre-img{
         width: 30vw;
