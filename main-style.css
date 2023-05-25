@@ -451,6 +451,7 @@ a{
 
 
 
+
 /* Buttons styling */
 
 .btn{
@@ -697,6 +698,11 @@ text{
     #haekleskole:hover, .dropdown-listitems:hover, .navigations-headlines .navigation-items:hover{
         font-weight: 400;
         cursor: pointer;
+    }
+
+    .here-are-u-nav{
+        font-weight: 400;
+        color: var(--blue);
     }
 
     #haekleskole {
