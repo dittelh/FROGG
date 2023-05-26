@@ -67,7 +67,7 @@
 }
 
 .first-yellow{
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .p-extra-margin-top{
@@ -94,6 +94,16 @@
 
 .img-container-web, .img-container-web2{
     display: none;
+}
+
+.btn-termer{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.slange{
+    margin-top: 15%;
+    margin-bottom: 0% !important;
 }
 
 
@@ -137,7 +147,9 @@
         margin-bottom: 5%;
     }
 
-
+    .slange{
+        margin-top: 0% !important;
+    }
 
     .yellow-section{
         width: 45vw;
@@ -189,7 +201,14 @@
 
     .h2-forslag{
         margin-top: 10%;
+        margin-bottom: 2%;
     }
+
+    .btn-termer{
+        margin-left: 10rem;
+        margin-top: 2%;
+    }
+    
 
   
 }
