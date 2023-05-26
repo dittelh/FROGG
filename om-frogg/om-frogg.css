@@ -112,7 +112,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 0%;
 }
 
 .input{
@@ -140,18 +140,6 @@
     padding-top: 5%;
 }
 
-.contact-form-img{
-    width: 90vw;
-    height: 90vw;
-    border: var(--red) solid 1px;
-    box-sizing: border-box;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    object-fit: cover;
-}
-
 .submit-btn{
     border: none;
     font-family: Roboto;
@@ -162,14 +150,14 @@
     height: 34px;
 }
 
-.mail-animation{
-    width: 70vw !important;
-    height: 70vw !important;
+.mail-video{
+    width: 80vw;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5vw;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    margin-top: -10%;
 }
+
 
 @media screen and (min-width: 992px){
     #fjong-img{
@@ -324,14 +312,13 @@
         height: 42px;
     }
 
-    .mail-animation{
-        width: 30vw !important;
-        height: 30vw !important;
+    .mail-video{
+        width: 45vw;
         display: flex;
-        margin-left: 0% !important;
-        margin-right: auto;
-        margin-bottom: 0vw !important;
-        padding-top: 5%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 10%;
+        margin-top: -7%;
     }
 
 }
