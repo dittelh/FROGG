@@ -13,7 +13,7 @@ $toEmail = "kontakt@frogg.dk";
 $subject = "Kontaktform fra FROGG.dk";
 
 // Message in mail
-$mailMessage = "En kunde har udfyldt kontaktformen på FROGG.dk.<br><br>
+$mailMessage = "En bruger har udfyldt kontaktformen på FROGG.dk.<br><br>
             Email: $email<br>
             Besked: $message<br><br>";
 

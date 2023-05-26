@@ -7,7 +7,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
   let wasMailSent = params.success;
 
 if(wasMailSent == "1"){
-    alert('Din besked er nu afsendt. Du vil høre fra mig snarest.');
+    alert('Din besked er nu afsendt. Du vil høre fra FROGG snarest.');
 
 }else if(wasMailSent == "0"){
       alert('Der skete desværre en fejl... Prøv igen');
