@@ -1,5 +1,5 @@
-#taske-billede{
-    width: 90vw;
+#first-billede{
+    width: 60vw;
     height: auto;
     object-fit: cover;
     display: flex;
@@ -206,8 +206,9 @@
         justify-content: center;
     }
     
-    #taske-billede{
-        width: 35vw;
+    #first-billede{
+        margin-top: 6vw;
+        width: 25vw;
         height: auto;
         object-fit: cover;
         display: flex;
