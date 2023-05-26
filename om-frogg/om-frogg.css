@@ -162,6 +162,15 @@
     height: 34px;
 }
 
+.mail-animation{
+    width: 70vw !important;
+    height: 70vw !important;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+}
+
 @media screen and (min-width: 992px){
     #fjong-img{
         width: 35vw;
@@ -315,5 +324,14 @@
         height: 42px;
     }
 
+    .mail-animation{
+        width: 30vw !important;
+        height: 30vw !important;
+        display: flex;
+        margin-left: 0% !important;
+        margin-right: auto;
+        margin-bottom: 0vw !important;
+        padding-top: 5%;
+    }
 
 }
