@@ -517,8 +517,8 @@ a{
 
 
 
-.footer-img{
-    margin-bottom: -120px;
+.footer-video{
+    margin-bottom: -1px;
     margin-top: 30%;
     width: 80vw;
     display: flex;
@@ -902,8 +902,8 @@ text{
 
 
     /* Footer */
-    .footer-img{
-        margin-bottom: -130px;
+    .footer-video{
+        margin-bottom: -1px;
         margin-top: 5vw;
         width: 20vw;
         display: flex;
