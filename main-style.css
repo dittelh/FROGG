@@ -24,6 +24,10 @@
     --darkpurple: #9D8FDC;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--lightpink);
     width: 100%;
