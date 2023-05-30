@@ -21,7 +21,6 @@ window.onclick = ((e) => {
   let menu = document.getElementsByClassName("navigation-menu")[0]
   if(!menu.contains(e.target) && !e.target.classList.contains("ham")){
     removeMenu()
-    console.log("hej")
   }
 })
 
