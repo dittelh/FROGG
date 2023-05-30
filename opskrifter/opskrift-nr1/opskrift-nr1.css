@@ -278,23 +278,23 @@ input[type=checkbox]:checked + label.strikethrough{
 }
 
 
-#container {
+/* #container {
     width: 100%;
     height: 100%;
     background-color: var(--lightpink);
-    /* border-style: dashed;
+    border-style: dashed;
     border-width: 2px;
     border-color: var(--red);
     border-left: none;
-    border-right: none; */
+    border-right: none;
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     border-radius: 7px;
     touch-action: none;
-}
+} */
 
 #item {
     width: 100px;
